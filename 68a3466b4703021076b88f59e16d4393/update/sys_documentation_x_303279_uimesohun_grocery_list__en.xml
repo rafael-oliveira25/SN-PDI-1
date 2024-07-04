@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Grocery List" language="en" table="x_303279_uimesohun_grocery_list">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Grocery List</label>
+            <language>en</language>
+            <name>x_303279_uimesohun_grocery_list</name>
+            <plural>Grocery Lists</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-03 14:31:23</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Grocery List</sys_name>
+            <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+            <sys_update_name>sys_documentation_x_303279_uimesohun_grocery_list__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-03 14:31:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

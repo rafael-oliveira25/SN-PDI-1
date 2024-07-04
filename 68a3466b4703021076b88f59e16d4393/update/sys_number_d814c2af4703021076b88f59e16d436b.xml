@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_303279_uimesohun_grocery_items">x_303279_uimesohun_grocery_items</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>GRO</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 14:11:48</sys_created_on>
+        <sys_id>d814c2af4703021076b88f59e16d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRO</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_number_d814c2af4703021076b88f59e16d436b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 14:11:48</sys_updated_on>
+    </sys_number>
+</record_update>
