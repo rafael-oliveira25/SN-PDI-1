@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a5f806274743021076b88f59e16d437f" label="x_303279_uimesohun_m2m_Grocery Items_Grocery Lists" max_length="40" name="x_303279_uimesohun_m2m_x_303279_uim_x_303279_uim" type="collection">
+        <element attributes="encode_utf8=false" label="Grocery Items" max_length="32" name="x_303279_uimesohun_grocery_items" reference="x_303279_uimesohun_grocery_items" type="reference"/>
+        <element attributes="encode_utf8=false" label="Grocery Lists" max_length="32" name="x_303279_uimesohun_grocery_list" reference="x_303279_uimesohun_grocery_list" type="reference"/>
+    </element>
+</database>
