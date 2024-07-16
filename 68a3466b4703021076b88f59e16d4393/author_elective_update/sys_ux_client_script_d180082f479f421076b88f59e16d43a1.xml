@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">8b1a0e674743021076b88f59e16d43ac</macroponent>
+        <name>quantity/invalid</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  
+  var value = api.item.value.x_303279_uimesohun_grocery_items._reference.quantity.value;
+	console.log("valeu " , value);
+
+  return api.item.value.x_303279_uimesohun_grocery_items._reference.quantity.value > 100;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-15 15:01:07</sys_created_on>
+        <sys_id>d180082f479f421076b88f59e16d43a1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>quantity/invalid</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_client_script_d180082f479f421076b88f59e16d43a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-15 15:10:01</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</application>
+        <file_path/>
+        <instance_id>a2dba30a1bfef590fe1b43f4bd4bcb14</instance_id>
+        <instance_name>dev230214</instance_name>
+        <name>sys_ux_client_script_d180082f479f421076b88f59e16d43a1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;8b1a0e674743021076b88f59e16d43ac&lt;/macroponent&gt;&lt;name&gt;quantity/invalid&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  
+  var value = api.item.value.x_303279_uimesohun_grocery_items._reference.quantity.value;
+	console.log("valeu " , value);
+
+  return api.item.value.x_303279_uimesohun_grocery_items._reference.quantity.value &gt; 100;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-15 15:01:07&lt;/sys_created_on&gt;&lt;sys_id&gt;d180082f479f421076b88f59e16d43a1&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;quantity/invalid&lt;/sys_name&gt;&lt;sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun"&gt;68a3466b4703021076b88f59e16d4393&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="UIMeSoHungry"&gt;68a3466b4703021076b88f59e16d4393&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_d180082f479f421076b88f59e16d43a1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-15 15:10:01&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1454938555</payload_hash>
+        <record_name>quantity/invalid</record_name>
+        <reverted_from/>
+        <source>c9b6a3b7470b021076b88f59e16d43e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-15 15:10:01</sys_created_on>
+        <sys_id>5a74406347df421076b88f59e16d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190b6f18aeb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-15 15:10:01</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>de744063c1df421081197420114e8e55</update_guid>
+        <update_guid_history>de744063c1df421081197420114e8e55:-1454938555,15f3406355df4210f54e8e07017b464d:-1820136223,4872c0ef069f421012b2ab9155de7546:-616324079</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-15 15:12:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>41a44a9c72a340b0ade316734db8f900</sys_id>
+        <sys_metadata>d180082f479f421076b88f59e16d43a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>quantity/invalid</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_scope_delete display_value="">5dd250ca172a4aaa9b7e603a6bd157c4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_d180082f479f421076b88f59e16d43a1</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_d180082f479f421076b88f59e16d43a1">5a74406347df421076b88f59e16d4356</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-15 15:12:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

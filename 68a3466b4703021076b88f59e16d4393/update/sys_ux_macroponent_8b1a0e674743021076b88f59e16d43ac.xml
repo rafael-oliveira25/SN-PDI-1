@@ -578,7 +578,81 @@
                                                                                 "elementId": "button_delete_grocery",
                                                                                 "elementLabel": "Button delete grocery",
                                                                                 "eventMappings": [
-                                                                                    
+                                                                                    {
+                                                                                        "eventMappingId": "clynffmnoiaaccpzddffhhtteersqcyd",
+                                                                                        "isConfiguration": false,
+                                                                                        "offRowStorageId": null,
+                                                                                        "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                                        "sourceEventCorrelationId": null,
+                                                                                        "sourceEventDefinition": {
+                                                                                            "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                                            "id": null,
+                                                                                            "type": "UXEVENT"
+                                                                                        },
+                                                                                        "sourceEventSysId": null,
+                                                                                        "targets": [
+                                                                                            {
+                                                                                                "broker": null,
+                                                                                                "clientScript": null,
+                                                                                                "conditional": null,
+                                                                                                "declarativeAction": null,
+                                                                                                "event": null,
+                                                                                                "operation": {
+                                                                                                    "dataBrokerId": "00cd9b8353211010cbc2ddeeff7b1205",
+                                                                                                    "operationName": "EXECUTE",
+                                                                                                    "parentResourceId": "delete_grocery_item",
+                                                                                                    "payload": {
+                                                                                                        "container": {
+                                                                                                            "recordId": {
+                                                                                                                "binding": {
+                                                                                                                    "address": [
+                                                                                                                        "sys_id",
+                                                                                                                        "value"
+                                                                                                                    ],
+                                                                                                                    "category": "value"
+                                                                                                                },
+                                                                                                                "type": "REPEATER_ITEM_BINDING"
+                                                                                                            },
+                                                                                                            "table": {
+                                                                                                                "type": "JSON_LITERAL",
+                                                                                                                "value": "x_303279_uimesohun_grocery_items"
+                                                                                                            }
+                                                                                                        },
+                                                                                                        "type": "MAP_CONTAINER"
+                                                                                                    }
+                                                                                                },
+                                                                                                "targetId": "clynffmnoiaaccqaaddffhhtdvggcaaoiiaa",
+                                                                                                "type": "DATABROKER_OP"
+                                                                                            },
+                                                                                            {
+                                                                                                "broker": null,
+                                                                                                "clientScript": null,
+                                                                                                "conditional": null,
+                                                                                                "declarativeAction": null,
+                                                                                                "event": {
+                                                                                                    "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                                                                                                    "payload": {
+                                                                                                        "type": "JSON_LITERAL",
+                                                                                                        "value": {
+                                                                                                            "items": [
+                                                                                                                {
+                                                                                                                    "action": {
+                                                                                                                        "type": "info"
+                                                                                                                    },
+                                                                                                                    "content": "Grocery Item Removed",
+                                                                                                                    "id": "alert2"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    },
+                                                                                                    "sysId": "49fe7d575f983bb3f8eea3fa8d40694c"
+                                                                                                },
+                                                                                                "operation": null,
+                                                                                                "targetId": "clynffniopaaccqrddffhhteeemywtzjj",
+                                                                                                "type": "EVENT"
+                                                                                            }
+                                                                                        ]
+                                                                                    }
                                                                                 ],
                                                                                 "isHidden": {
                                                                                     "type": "JSON_LITERAL",
@@ -1036,8 +1110,8 @@
                                                                                     "id": "4335ba6dca80378f7ba7a67cd6667bec",
                                                                                     "type": "MACROPONENT"
                                                                                 },
-                                                                                "elementId": "stylized_text_2",
-                                                                                "elementLabel": "Stylized text 2",
+                                                                                "elementId": "item_name",
+                                                                                "elementLabel": "Item Name",
                                                                                 "eventMappings": [
                                                                                     
                                                                                 ],
@@ -1063,6 +1137,251 @@
                                                                                         "binding": {
                                                                                             "address": [
                                                                                                 "x_303279_uimesohun_grocery_items",
+                                                                                                "displayValue"
+                                                                                            ],
+                                                                                            "category": "value"
+                                                                                        },
+                                                                                        "type": "REPEATER_ITEM_BINDING"
+                                                                                    }
+                                                                                },
+                                                                                "slot": null,
+                                                                                "styles": null
+                                                                            },
+                                                                            {
+                                                                                "definition": {
+                                                                                    "id": "bb0f92e8d7eff1590624bfe69d316f23",
+                                                                                    "type": "MACROPONENT"
+                                                                                },
+                                                                                "elementId": "quantity",
+                                                                                "elementLabel": "Quantity",
+                                                                                "eventMappings": [
+                                                                                    {
+                                                                                        "eventMappingId": "clyijffnaiaacceeggddffhhtggvazgddnc",
+                                                                                        "isConfiguration": false,
+                                                                                        "offRowStorageId": null,
+                                                                                        "sourceEventApiName": "sn_input.NOW_INPUT#INPUT",
+                                                                                        "sourceEventCorrelationId": null,
+                                                                                        "sourceEventDefinition": {
+                                                                                            "apiName": "sn_input.NOW_INPUT#INPUT",
+                                                                                            "id": null,
+                                                                                            "type": "UXEVENT"
+                                                                                        },
+                                                                                        "sourceEventSysId": null,
+                                                                                        "targets": [
+                                                                                            {
+                                                                                                "broker": null,
+                                                                                                "clientScript": null,
+                                                                                                "conditional": {
+                                                                                                    "operation": {
+                                                                                                        "left": {
+                                                                                                            "binding": {
+                                                                                                                "address": [
+                                                                                                                    "fieldValue"
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "type": "EVENT_PAYLOAD_BINDING"
+                                                                                                        },
+                                                                                                        "operator": "&lt;",
+                                                                                                        "right": {
+                                                                                                            "type": "JSON_LITERAL",
+                                                                                                            "value": 100
+                                                                                                        }
+                                                                                                    },
+                                                                                                    "type": "BINARY"
+                                                                                                },
+                                                                                                "declarativeAction": null,
+                                                                                                "event": null,
+                                                                                                "operation": {
+                                                                                                    "dataBrokerId": "9b4b978353211010cbc2ddeeff7b1245",
+                                                                                                    "operationName": "EXECUTE",
+                                                                                                    "parentResourceId": "update_item_record",
+                                                                                                    "payload": {
+                                                                                                        "container": {
+                                                                                                            "recordId": {
+                                                                                                                "binding": {
+                                                                                                                    "address": [
+                                                                                                                        "x_303279_uimesohun_grocery_items",
+                                                                                                                        "value"
+                                                                                                                    ],
+                                                                                                                    "category": "value"
+                                                                                                                },
+                                                                                                                "type": "REPEATER_ITEM_BINDING"
+                                                                                                            },
+                                                                                                            "table": {
+                                                                                                                "type": "JSON_LITERAL",
+                                                                                                                "value": "x_303279_uimesohun_grocery_items"
+                                                                                                            },
+                                                                                                            "templateFields": {
+                                                                                                                "transform": {
+                                                                                                                    "operands": {
+                                                                                                                        "container": [
+                                                                                                                            {
+                                                                                                                                "type": "JSON_LITERAL",
+                                                                                                                                "value": "quantity="
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "binding": {
+                                                                                                                                    "address": [
+                                                                                                                                        "fieldValue"
+                                                                                                                                    ]
+                                                                                                                                },
+                                                                                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                                                                                            }
+                                                                                                                        ],
+                                                                                                                        "type": "LIST_CONTAINER"
+                                                                                                                    },
+                                                                                                                    "operator": "CONCAT"
+                                                                                                                },
+                                                                                                                "type": "CLIENT_TRANSFORM"
+                                                                                                            },
+                                                                                                            "useSetDisplayValue": {
+                                                                                                                "type": "JSON_LITERAL",
+                                                                                                                "value": null
+                                                                                                            }
+                                                                                                        },
+                                                                                                        "type": "MAP_CONTAINER"
+                                                                                                    }
+                                                                                                },
+                                                                                                "targetId": "clyijffnaiaacceehhddffhhtddknjjxggbjj",
+                                                                                                "type": "DATABROKER_OP"
+                                                                                            },
+                                                                                            {
+                                                                                                "broker": null,
+                                                                                                "clientScript": {
+                                                                                                    "payload": {
+                                                                                                        "type": "JSON_LITERAL",
+                                                                                                        "value": {}
+                                                                                                    },
+                                                                                                    "sysId": "1580082f479f421076b88f59e16d43a1"
+                                                                                                },
+                                                                                                "conditional": null,
+                                                                                                "declarativeAction": null,
+                                                                                                "event": null,
+                                                                                                "operation": null,
+                                                                                                "targetId": "clynffddyezaaccipddffhhtkgglgddjjtl",
+                                                                                                "type": "CLIENT_SCRIPT"
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ],
+                                                                                "isHidden": {
+                                                                                    "type": "JSON_LITERAL",
+                                                                                    "value": null
+                                                                                },
+                                                                                "preset": null,
+                                                                                "propertyValues": {
+                                                                                    "align": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "autofocus": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": false
+                                                                                    },
+                                                                                    "configAria": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": {
+                                                                                            "input": {}
+                                                                                        }
+                                                                                    },
+                                                                                    "disabled": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": false
+                                                                                    },
+                                                                                    "fieldLayout": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": {
+                                                                                            "layout": "vertical"
+                                                                                        }
+                                                                                    },
+                                                                                    "helperContent": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "hideRequiredIndicator": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": false
+                                                                                    },
+                                                                                    "invalid": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": false
+                                                                                    },
+                                                                                    "label": {
+                                                                                        "type": "TRANSLATION_LITERAL",
+                                                                                        "value": {
+                                                                                            "code": null,
+                                                                                            "comment": "",
+                                                                                            "message": "Quantity"
+                                                                                        }
+                                                                                    },
+                                                                                    "max": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "maxlength": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "messages": {
+                                                                                        "container": [
+                                                                                            
+                                                                                        ],
+                                                                                        "type": "LIST_CONTAINER"
+                                                                                    },
+                                                                                    "min": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "minlength": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "multiple": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "name": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "optional": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": false
+                                                                                    },
+                                                                                    "pattern": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": ""
+                                                                                    },
+                                                                                    "placeholder": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "readonly": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": false
+                                                                                    },
+                                                                                    "required": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": false
+                                                                                    },
+                                                                                    "size": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": "sm"
+                                                                                    },
+                                                                                    "step": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": "any"
+                                                                                    },
+                                                                                    "type": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": "number"
+                                                                                    },
+                                                                                    "value": {
+                                                                                        "binding": {
+                                                                                            "address": [
+                                                                                                "x_303279_uimesohun_grocery_items",
+                                                                                                "_reference",
+                                                                                                "quantity",
                                                                                                 "displayValue"
                                                                                             ],
                                                                                             "category": "value"
@@ -1158,7 +1477,7 @@
                                                                                     },
                                                                                     "size": {
                                                                                         "type": "JSON_LITERAL",
-                                                                                        "value": "md"
+                                                                                        "value": "sm"
                                                                                     },
                                                                                     "tooltipContent": {
                                                                                         "type": "TRANSLATION_LITERAL",
@@ -1188,14 +1507,20 @@
                                                                                         }
                                                                                     },
                                                                                     {
-                                                                                        "element_id": "stylized_text_2",
+                                                                                        "element_id": "item_name",
                                                                                         "styles": {
                                                                                             "padding-left": "var(--now-scalable-space--sm)"
                                                                                         }
                                                                                     },
                                                                                     {
-                                                                                        "element_id": "delete_item",
+                                                                                        "element_id": "quantity",
                                                                                         "styles": {}
+                                                                                    },
+                                                                                    {
+                                                                                        "element_id": "delete_item",
+                                                                                        "styles": {
+                                                                                            "width": ""
+                                                                                        }
                                                                                     }
                                                                                 ],
                                                                                 "root": null,
@@ -1204,11 +1529,10 @@
                                                                                     "align-content": "space-between",
                                                                                     "align-items": "center",
                                                                                     "display": "grid",
-                                                                                    "flex-direction": "column",
                                                                                     "gap": "var(--now-scalable-space--xs)",
                                                                                     "grid-auto-columns": "1fr",
                                                                                     "grid-auto-rows": "1fr",
-                                                                                    "grid-template-columns": "1fr 1fr",
+                                                                                    "grid-template-columns": "1fr 1fr 1fr",
                                                                                     "grid-template-rows": "1fr",
                                                                                     "justify-content": "start",
                                                                                     "justify-items": "center"
@@ -2606,7 +2930,7 @@
             },
             "returnFields": {
                 "type": "JSON_LITERAL",
-                "value": "name,sys_id,number,active"
+                "value": "name,sys_id,number,active,quantity"
             },
             "sortType": {
                 "type": "JSON_LITERAL",
@@ -2676,7 +3000,7 @@
             },
             "returnFields": {
                 "type": "JSON_LITERAL",
-                "value": "x_303279_uimesohun_grocery_items.name,x_303279_uimesohun_grocery_list.name"
+                "value": "x_303279_uimesohun_grocery_items.name,x_303279_uimesohun_grocery_list.name,x_303279_uimesohun_grocery_items.quantity"
             },
             "sortType": {
                 "type": "JSON_LITERAL",
@@ -2989,6 +3313,86 @@
             }
         },
         "readEvaluationMode": "EXPLICIT"
+    },
+    {
+        "definition": {
+            "id": "9b4b978353211010cbc2ddeeff7b1245",
+            "type": "GRAPHQL"
+        },
+        "elementId": "update_item_record",
+        "elementLabel": "Update Item Record",
+        "eventMappings": [
+            {
+                "eventMappingId": "clyijffdccddaacceeeeddffhhthoieegdnn",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uxf.DATA_OP_SUCCEEDED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uxf.DATA_OP_SUCCEEDED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": {
+                            "dataBrokerId": "b997a84053021010cbc2ddeeff7b1228",
+                            "operationName": "REFRESH",
+                            "parentResourceId": "look_up_items",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {}
+                            }
+                        },
+                        "targetId": "clyijffdccddaacceeffddffhhtiiuvuiidgq",
+                        "type": "DATABROKER_OP"
+                    },
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": {
+                            "dataBrokerId": "b997a84053021010cbc2ddeeff7b1228",
+                            "operationName": "REFRESH",
+                            "parentResourceId": "look_up_current_list",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {}
+                            }
+                        },
+                        "targetId": "clyijjjhxkaacchhrddffhhtiqhhppbbecc",
+                        "type": "DATABROKER_OP"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "recordId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "templateFields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "useSetDisplayValue": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
     }
 ]</data>
         <description/>
@@ -3058,6 +3462,9 @@
   "message" : "Name of the Grocery Item",
   "comment" : ""
 }, {
+  "message" : "Quantity",
+  "comment" : ""
+}, {
   "message" : "Remove",
   "comment" : ""
 }, {
@@ -3098,14 +3505,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-03 14:38:11</sys_created_on>
         <sys_id>8b1a0e674743021076b88f59e16d43ac</sys_id>
-        <sys_mod_count>106</sys_mod_count>
+        <sys_mod_count>138</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
         <sys_update_name>sys_ux_macroponent_8b1a0e674743021076b88f59e16d43ac</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-08 11:44:49</sys_updated_on>
+        <sys_updated_on>2024-07-15 15:45:39</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=8b1a0e674743021076b88f59e16d43ac"/>
 </record_update>
