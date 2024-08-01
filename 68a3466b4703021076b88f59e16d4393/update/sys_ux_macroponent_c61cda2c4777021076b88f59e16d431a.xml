@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>component</category>
+        <component_dependencies/>
+        <composition/>
+        <da_relay_models/>
+        <data/>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends/>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings/>
+        <layout/>
+        <macroponent_dependencies/>
+        <name>Test Component</name>
+        <output_prop_mapping/>
+        <props/>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>rafael.oliveira</sys_created_by>
+        <sys_created_on>2024-07-31 15:02:22</sys_created_on>
+        <sys_id>c61cda2c4777021076b88f59e16d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Component</sys_name>
+        <sys_package display_value="ui_hungry_app" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ui_hungry_app">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_macroponent_c61cda2c4777021076b88f59e16d431a</sys_update_name>
+        <sys_updated_by>rafael.oliveira</sys_updated_by>
+        <sys_updated_on>2024-07-31 15:02:22</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=c61cda2c4777021076b88f59e16d431a"/>
+</record_update>
