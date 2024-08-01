@@ -39,6 +39,25 @@
                         "composition": [
                             {
                                 "definition": {
+                                    "id": "22ab42c8d0217d89716d60c0ee984cc5",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "title_new_component_1",
+                                "elementLabel": "Title New Component 1",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {},
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
                                     "id": "d356d14b6e293a3020a244b63d278d8f",
                                     "type": "MACROPONENT"
                                 },
@@ -1537,7 +1556,9 @@
                                                                                     },
                                                                                     {
                                                                                         "element_id": "quantity",
-                                                                                        "styles": {}
+                                                                                        "styles": {
+                                                                                            "padding-bottom": "var(--now-scalable-space--lg)"
+                                                                                        }
                                                                                     },
                                                                                     {
                                                                                         "element_id": "delete_item",
@@ -1871,6 +1892,13 @@
                                 "children": null,
                                 "items": [
                                     {
+                                        "element_id": "title_new_component_1",
+                                        "styles": {
+                                            "max-width": "100%",
+                                            "width": ""
+                                        }
+                                    },
+                                    {
                                         "element_id": "column_layout_3",
                                         "styles": {
                                             "display": "contents",
@@ -1883,7 +1911,7 @@
                                     "flex-direction": "row"
                                 },
                                 "styles": {
-                                    "align-items": "flex-start",
+                                    "align-items": "center",
                                     "box-sizing": "border-box",
                                     "flex-direction": "column",
                                     "height": "100%",
@@ -1912,7 +1940,7 @@
                                             "width": "100%"
                                         },
                                         "internal": {
-                                            "align-items": "flex-start",
+                                            "align-items": "center",
                                             "box-sizing": "border-box",
                                             "flex-direction": "column",
                                             "height": "100%",
@@ -1947,9 +1975,10 @@
                     "rules": null,
                     "styles": {
                         "box-sizing": "border-box",
-                        "column-gap": "var(--now-scalable-space--lg)",
+                        "column-gap": "var(--now-scalable-space--md)",
                         "grid-template-columns": "100fr",
                         "grid-template-rows": "1fr",
+                        "height": "",
                         "padding": "var(--now-scalable-space--lg)",
                         "padding-bottom": "var(--now-scalable-space--lg)",
                         "padding-left": "var(--now-scalable-space--lg)",
@@ -1959,7 +1988,6 @@
                     },
                     "type": "grid"
                 },
-                "disableAutoReflow": true,
                 "queries": [
                     {
                         "layout": {
@@ -1972,7 +2000,7 @@
                             "rules": null,
                             "styles": {
                                 "box-sizing": "border-box",
-                                "column-gap": "var(--now-scalable-space--lg)",
+                                "column-gap": "var(--now-scalable-space--md)",
                                 "grid-template-columns": "1fr",
                                 "grid-template-rows": "1fr",
                                 "height": "fit-content",
@@ -2036,8 +2064,9 @@
                             },
                             "internal": {
                                 "box-sizing": "border-box",
-                                "column-gap": "var(--now-scalable-space--lg)",
+                                "column-gap": "var(--now-scalable-space--md)",
                                 "grid-template-rows": "1fr",
+                                "height": "",
                                 "padding": "var(--now-scalable-space--lg)",
                                 "padding-bottom": "var(--now-scalable-space--lg)",
                                 "padding-left": "var(--now-scalable-space--lg)",
@@ -3443,6 +3472,7 @@
         "root": null,
         "rules": null,
         "styles": {
+            "display": "flex",
             "flex-direction": "column",
             "padding": "0",
             "padding-bottom": "0",
@@ -3529,14 +3559,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-03 14:38:11</sys_created_on>
         <sys_id>8b1a0e674743021076b88f59e16d43ac</sys_id>
-        <sys_mod_count>141</sys_mod_count>
+        <sys_mod_count>151</sys_mod_count>
         <sys_name>Default</sys_name>
-        <sys_package display_value="ui_hungry_app" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
         <sys_policy/>
-        <sys_scope display_value="ui_hungry_app">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
         <sys_update_name>sys_ux_macroponent_8b1a0e674743021076b88f59e16d43ac</sys_update_name>
-        <sys_updated_by>rafael.oliveira</sys_updated_by>
-        <sys_updated_on>2024-07-31 14:08:44</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 15:39:32</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=8b1a0e674743021076b88f59e16d43ac"/>
 </record_update>
