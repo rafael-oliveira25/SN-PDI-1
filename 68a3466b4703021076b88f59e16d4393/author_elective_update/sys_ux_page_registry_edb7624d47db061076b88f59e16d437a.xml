@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>a5b7624d47db061076b88f59e16d4377</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>nextgenhungry</path>
+        <root_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-08 08:38:24</sys_created_on>
+        <sys_id>edb7624d47db061076b88f59e16d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NextGenHungry</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_page_registry_edb7624d47db061076b88f59e16d437a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-08 08:38:24</sys_updated_on>
+        <title>NextGenHungry</title>
+    </sys_ux_page_registry>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</application>
+        <file_path/>
+        <instance_id>a2dba30a1bfef590fe1b43f4bd4bcb14</instance_id>
+        <instance_name>dev230214</instance_name>
+        <name>sys_ux_page_registry_edb7624d47db061076b88f59e16d437a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_panel>a5b7624d47db061076b88f59e16d4377</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>nextgenhungry</path>
+        <root_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-08 08:38:24</sys_created_on>
+        <sys_id>edb7624d47db061076b88f59e16d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NextGenHungry</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_page_registry_edb7624d47db061076b88f59e16d437a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-08 08:38:24</sys_updated_on>
+        <title>NextGenHungry</title>
+    </sys_ux_page_registry>
+</record_update>]]></payload>
+        <payload_hash>1085375635</payload_hash>
+        <record_name>NextGenHungry</record_name>
+        <reverted_from/>
+        <source>bc5d83784737021076b88f59e16d4367</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 13:15:56</sys_created_on>
+        <sys_id>fc6dc7784737021076b88f59e16d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1910e1533f00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 13:15:56</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>b86dc77800370210aac9c4b963b5cc5f</update_guid>
+        <update_guid_history>b86dc77800370210aac9c4b963b5cc5f:0,f62aa9ac60730210314cbb9b2cccb4a6:0,e5b7624de8db061015a216a21c1d647d:612487761</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 13:57:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>6a05e31f05294db08cd139996d9d5900</sys_id>
+        <sys_metadata>edb7624d47db061076b88f59e16d437a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NextGenHungry</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_scope_delete display_value="">5dd250ca172a4aaa9b7e603a6bd157c4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_edb7624d47db061076b88f59e16d437a</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_edb7624d47db061076b88f59e16d437a">fc6dc7784737021076b88f59e16d435f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:57:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

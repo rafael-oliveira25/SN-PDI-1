@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_asset">
+    <sys_ux_theme_asset action="DELETE">
+        <category>image</category>
+        <name>pngwing.com (1)</name>
+        <sys_class_name>sys_ux_theme_asset</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 10:10:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f8c55f64773021076b88f59e16d4303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pngwing.com (1)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_theme_asset_3f8c55f64773021076b88f59e16d4303</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 10:10:50</sys_updated_on>
+    </sys_ux_theme_asset>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</application>
+        <file_path/>
+        <instance_id>a2dba30a1bfef590fe1b43f4bd4bcb14</instance_id>
+        <instance_name>dev230214</instance_name>
+        <name>sys_ux_theme_asset_3f8c55f64773021076b88f59e16d4303</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_asset"><sys_ux_theme_asset action="INSERT_OR_UPDATE"><category>image</category><name>pngwing.com (1)</name><sys_class_name>sys_ux_theme_asset</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-07 10:10:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3f8c55f64773021076b88f59e16d4303</sys_id><sys_mod_count>0</sys_mod_count><sys_name>pngwing.com (1)</sys_name><sys_overrides/><sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package><sys_policy/><sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope><sys_update_name>sys_ux_theme_asset_3f8c55f64773021076b88f59e16d4303</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-07 10:10:50</sys_updated_on></sys_ux_theme_asset></record_update>]]></payload>
+        <payload_hash>-1359399072</payload_hash>
+        <record_name>pngwing.com (1)</record_name>
+        <reverted_from/>
+        <source>c9b6a3b7470b021076b88f59e16d43e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 10:12:00</sys_created_on>
+        <sys_id>05dc55f247b3021076b88f59e16d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1912c52f73b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 10:12:00</sys_updated_on>
+        <type>UX Theme Asset</type>
+        <update_guid>49dc55f21bb302100cfddd6838326cfe</update_guid>
+        <update_guid_history>49dc55f21bb302100cfddd6838326cfe:-1359399072,1c9c11f28eb302104aa65230bbc501b7:-181479381,bb8c55f6cd730210808ce7dbdec0d605:-1359399072</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 10:12:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_theme_asset">sys_ux_theme_asset</sys_db_object>
+        <sys_id>3943edae402f4bd1b780363dd66fda81</sys_id>
+        <sys_metadata>3f8c55f64773021076b88f59e16d4303</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pngwing.com (1)</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_scope_delete display_value="">5dd250ca172a4aaa9b7e603a6bd157c4</sys_scope_delete>
+        <sys_update_name>sys_ux_theme_asset_3f8c55f64773021076b88f59e16d4303</sys_update_name>
+        <sys_update_version display_value="sys_ux_theme_asset_3f8c55f64773021076b88f59e16d4303">05dc55f247b3021076b88f59e16d43ff</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 10:12:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>mygrocerylist</landing_path>
+        <name>NextGenHungry</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-08 08:38:24</sys_created_on>
+        <sys_id>a5b7624d47db061076b88f59e16d4377</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NextGenHungry</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_app_config_a5b7624d47db061076b88f59e16d4377</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-08 13:13:54</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="DELETE" query="documentkey=a5b7624d47db061076b88f59e16d4377"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</application>
+        <file_path/>
+        <instance_id>a2dba30a1bfef590fe1b43f4bd4bcb14</instance_id>
+        <instance_name>dev230214</instance_name>
+        <name>sys_ux_app_config_a5b7624d47db061076b88f59e16d4377</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>mygrocerylist</landing_path>
+        <name>NextGenHungry</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-08 08:38:24</sys_created_on>
+        <sys_id>a5b7624d47db061076b88f59e16d4377</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NextGenHungry</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_app_config_a5b7624d47db061076b88f59e16d4377</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-08 13:13:54</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=a5b7624d47db061076b88f59e16d4377"/>
+</record_update>]]></payload>
+        <payload_hash>1276529200</payload_hash>
+        <record_name>NextGenHungry</record_name>
+        <reverted_from/>
+        <source>bc5d83784737021076b88f59e16d4367</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 13:15:54</sys_created_on>
+        <sys_id>a06d87784737021076b88f59e16d43eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1910e152e160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 13:15:54</sys_updated_on>
+        <type>UX App Configuration</type>
+        <update_guid>6c6d8778ab370210babc1e0ce7806cea</update_guid>
+        <update_guid_history>6c6d8778ab370210babc1e0ce7806cea:0,aa2aa9ac8a73021046bc0c309fb79b69:0,c5c62b45fc970210f691446ad752d5b7:1173947892,a9b7624ddddb061072b6c108ad6a8f79:805219306</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 13:57:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>32584770a4b14d82b5752a8b4c2081c4</sys_id>
+        <sys_metadata>a5b7624d47db061076b88f59e16d4377</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NextGenHungry</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_scope_delete display_value="">5dd250ca172a4aaa9b7e603a6bd157c4</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_a5b7624d47db061076b88f59e16d4377</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_a5b7624d47db061076b88f59e16d4377">a06d87784737021076b88f59e16d43eb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:57:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

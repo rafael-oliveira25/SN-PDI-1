@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_style_asset">
+    <m2m_style_asset action="DELETE">
+        <asset display_value="pngwing.com (1)">3f8c55f64773021076b88f59e16d4303</asset>
+        <properties>{
+  "position": "header_logo"
+}</properties>
+        <style display_value="Imagery">22c895be4773021076b88f59e16d4341</style>
+        <sys_class_name>m2m_style_asset</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 10:10:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>589c11f247b3021076b88f59e16d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>m2m_style_asset_589c11f247b3021076b88f59e16d43ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 10:10:51</sys_updated_on>
+    </m2m_style_asset>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</application>
+        <file_path/>
+        <instance_id>a2dba30a1bfef590fe1b43f4bd4bcb14</instance_id>
+        <instance_name>dev230214</instance_name>
+        <name>m2m_style_asset_589c11f247b3021076b88f59e16d43ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_style_asset"><m2m_style_asset action="INSERT_OR_UPDATE"><asset display_value="pngwing.com (1)">3f8c55f64773021076b88f59e16d4303</asset><properties>{
+  "position": "header_logo"
+}</properties><style display_value="Imagery">22c895be4773021076b88f59e16d4341</style><sys_class_name>m2m_style_asset</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-07 10:10:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>589c11f247b3021076b88f59e16d43ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package><sys_policy/><sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope><sys_update_name>m2m_style_asset_589c11f247b3021076b88f59e16d43ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-07 10:10:51</sys_updated_on></m2m_style_asset></record_update>]]></payload>
+        <payload_hash>1829769850</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c9b6a3b7470b021076b88f59e16d43e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 10:10:51</sys_created_on>
+        <sys_id>d89c11f247b3021076b88f59e16d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1912c51ebcf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 10:10:51</sys_updated_on>
+        <type>UX Style Assets</type>
+        <update_guid>dc9c11f23cb30210ec4e4a746655a9bb</update_guid>
+        <update_guid_history>dc9c11f23cb30210ec4e4a746655a9bb:1829769850</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">30dcd13e4773021076b88f59e16d4325</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 10:11:59</sys_created_on>
+        <sys_db_object display_value="" name="m2m_style_asset">m2m_style_asset</sys_db_object>
+        <sys_id>16578f91433e4d9ca3712dbe38861024</sys_id>
+        <sys_metadata>589c11f247b3021076b88f59e16d43ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_scope_delete display_value="">5dd250ca172a4aaa9b7e603a6bd157c4</sys_scope_delete>
+        <sys_update_name>m2m_style_asset_589c11f247b3021076b88f59e16d43ba</sys_update_name>
+        <sys_update_version display_value="m2m_style_asset_589c11f247b3021076b88f59e16d43ba">d89c11f247b3021076b88f59e16d43bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 10:11:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

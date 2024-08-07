@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_toolbar</name>
+        <page display_value="NextGenHungry">edb7624d47db061076b88f59e16d437a</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-08 13:13:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>c9c62b454797021076b88f59e16d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_page_property_c9c62b454797021076b88f59e16d43be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-08 13:13:54</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_303279_uimesohun.edb7624d47db061076b88f59e16d437a.root.chrome_toolbar</unique_name>
+        <value>[]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=c9c62b454797021076b88f59e16d43be"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</application>
+        <file_path/>
+        <instance_id>a2dba30a1bfef590fe1b43f4bd4bcb14</instance_id>
+        <instance_name>dev230214</instance_name>
+        <name>sys_ux_page_property_c9c62b454797021076b88f59e16d43be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_toolbar</name>
+        <page display_value="NextGenHungry">edb7624d47db061076b88f59e16d437a</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-08 13:13:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>c9c62b454797021076b88f59e16d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_page_property_c9c62b454797021076b88f59e16d43be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-08 13:13:54</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_303279_uimesohun.edb7624d47db061076b88f59e16d437a.root.chrome_toolbar</unique_name>
+        <value>[]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=c9c62b454797021076b88f59e16d43be"/>
+</record_update>]]></payload>
+        <payload_hash>-1497484275</payload_hash>
+        <record_name>chrome_toolbar</record_name>
+        <reverted_from/>
+        <source>bc5d83784737021076b88f59e16d4367</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 13:15:55</sys_created_on>
+        <sys_id>706dc7784737021076b88f59e16d4352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1910e1532c50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 13:15:55</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>3c6dc77832370210ee3e3611e8e58b51</update_guid>
+        <update_guid_history>3c6dc77832370210ee3e3611e8e58b51:0,be2aa9ac71730210e5f5e7162bc1829c:0,81c66b458497021076ee8fc2b3254d6e:1514093641</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 13:57:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>d0eb2b28433e49fcb04e0f9721b203d1</sys_id>
+        <sys_metadata>c9c62b454797021076b88f59e16d43be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_scope_delete display_value="">5dd250ca172a4aaa9b7e603a6bd157c4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_c9c62b454797021076b88f59e16d43be</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_c9c62b454797021076b88f59e16d43be">706dc7784737021076b88f59e16d4352</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:57:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
