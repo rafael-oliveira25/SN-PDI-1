@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 14:05:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b10fff4647b7021076b88f59e16d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>m2m_app_config_theme_b10fff4647b7021076b88f59e16d4364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 14:05:13</sys_updated_on>
+        <theme/>
+        <ux_app_configuration display_value="UIhungry">00f906674743021076b88f59e16d4385</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</application>
+        <file_path/>
+        <instance_id>a2dba30a1bfef590fe1b43f4bd4bcb14</instance_id>
+        <instance_name>dev230214</instance_name>
+        <name>m2m_app_config_theme_b10fff4647b7021076b88f59e16d4364</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-05 14:05:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b10fff4647b7021076b88f59e16d4364</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package><sys_policy/><sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope><sys_update_name>m2m_app_config_theme_b10fff4647b7021076b88f59e16d4364</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-05 14:05:13</sys_updated_on><theme/><ux_app_configuration display_value="UIhungry">00f906674743021076b88f59e16d4385</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>-1434806610</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c9b6a3b7470b021076b88f59e16d43e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 14:05:13</sys_created_on>
+        <sys_id>390f738647b7021076b88f59e16d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19122dbc2800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 14:05:13</sys_updated_on>
+        <type>UX App Theme</type>
+        <update_guid>b10fff46a5b7021003d96e75d5557166</update_guid>
+        <update_guid_history>b10fff46a5b7021003d96e75d5557166:-1434806610</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">fd1e157647b3021076b88f59e16d4391</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 10:17:31</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>2e4bde3ca0fb45f19205429f319fe461</sys_id>
+        <sys_metadata>b10fff4647b7021076b88f59e16d4364</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_scope_delete display_value="">5dd250ca172a4aaa9b7e603a6bd157c4</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_b10fff4647b7021076b88f59e16d4364</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_b10fff4647b7021076b88f59e16d4364">390f738647b7021076b88f59e16d433f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 10:17:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

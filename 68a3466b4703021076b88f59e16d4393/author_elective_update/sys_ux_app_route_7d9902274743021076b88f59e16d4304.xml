@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="UIMeSoHungry">9e69ce274743021076b88f59e16d432e</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Homepage</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>homepage</route_type>
+        <screen_type display_value="Homepage">7d9902274743021076b88f59e16d4301</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 14:35:56</sys_created_on>
+        <sys_id>7d9902274743021076b88f59e16d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Homepage</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_app_route_7d9902274743021076b88f59e16d4304</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 14:35:56</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=7d9902274743021076b88f59e16d4304"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</application>
+        <file_path/>
+        <instance_id>a2dba30a1bfef590fe1b43f4bd4bcb14</instance_id>
+        <instance_name>dev230214</instance_name>
+        <name>sys_ux_app_route_7d9902274743021076b88f59e16d4304</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="UIMeSoHungry">9e69ce274743021076b88f59e16d432e</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Homepage</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>homepage</route_type>
+        <screen_type display_value="Homepage">7d9902274743021076b88f59e16d4301</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 14:35:56</sys_created_on>
+        <sys_id>7d9902274743021076b88f59e16d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Homepage</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_app_route_7d9902274743021076b88f59e16d4304</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 14:35:56</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=7d9902274743021076b88f59e16d4304"/>
+</record_update>]]></payload>
+        <payload_hash>-619895195</payload_hash>
+        <record_name>Homepage</record_name>
+        <reverted_from/>
+        <source>bc5d83784737021076b88f59e16d4367</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 13:15:54</sys_created_on>
+        <sys_id>a86d87784737021076b88f59e16d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1910e152e730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 13:15:54</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>646d87785e370210c978176113948cf0</update_guid>
+        <update_guid_history>646d87785e370210c978176113948cf0:0,e62aa9ac53730210ec9685e35525126e:0,b9998267da4302101a105030cb6738e0:-1306581171</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 13:56:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>10035446a5b842509744276f8770f9c1</sys_id>
+        <sys_metadata>7d9902274743021076b88f59e16d4304</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Homepage</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_scope_delete display_value="">5dd250ca172a4aaa9b7e603a6bd157c4</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_7d9902274743021076b88f59e16d4304</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_7d9902274743021076b88f59e16d4304">a86d87784737021076b88f59e16d43f0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:56:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
