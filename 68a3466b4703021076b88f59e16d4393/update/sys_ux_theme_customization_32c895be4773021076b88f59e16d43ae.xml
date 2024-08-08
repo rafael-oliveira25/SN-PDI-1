@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_customization">
     <sys_ux_theme_customization action="INSERT_OR_UPDATE">
-        <customization>{"colors":[{"id":"--now-color_background--primary","value":"223, 217, 232","type":"color_hook_overridden"},{"id":"--now-color_background--secondary","value":"200, 189, 215","type":"color_hook_overridden"},{"id":"--now-color_background--tertiary","value":"178, 164, 199","type":"color_hook_overridden"},{"id":"--now-color_text--primary","value":"0, 0, 0","type":"color_hook_overridden"},{"id":"--now-color--neutral","value":"201, 196, 196","type":"color_hook_overridden"},{"id":"--now-button--primary--color","value":"201, 196, 196","type":"component_hook_overridden","hook":"now-color--neutral-0"}],"feedback":[],"groupName":""}</customization>
+        <customization>{"colors":[{"id":"isSecondaryColorUpdated","value":true,"type":"secondary_color_updated"},{"id":"--now-color_background--primary","value":"223, 217, 232","type":"color_hook_overridden"},{"id":"--now-color_background--secondary","value":"200, 189, 215","type":"color_hook_overridden"},{"id":"--now-color_background--tertiary","value":"178, 164, 199","type":"color_hook_overridden"},{"id":"--now-color_text--primary","value":"0, 0, 0","type":"color_hook_overridden"},{"id":"--now-color--neutral","value":"201, 196, 196","type":"color_hook_overridden"},{"id":"--now-color_border--primary","value":"53, 50, 59","type":"color_hook_overridden"},{"id":"--now-color_focus-ring","value":"84, 86, 207","type":"color_hook_overridden"},{"id":"--now-button--primary--color","value":"201, 196, 196","type":"component_hook_overridden","hook":"now-color--neutral-0"}],"feedback":[],"groupName":""}</customization>
         <name>UIHungryTheme</name>
         <sys_class_name>sys_ux_theme_customization</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -8,7 +8,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>32c895be4773021076b88f59e16d43ae</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>UIHungryTheme</sys_name>
         <sys_overrides/>
         <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
@@ -16,7 +16,7 @@
         <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
         <sys_update_name>sys_ux_theme_customization_32c895be4773021076b88f59e16d43ae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-07 10:24:27</sys_updated_on>
+        <sys_updated_on>2024-08-08 09:23:14</sys_updated_on>
         <theme display_value="UIHungryTheme">aac8ddf64773021076b88f59e16d43b5</theme>
     </sys_ux_theme_customization>
 </record_update>

@@ -2,7 +2,7 @@
     <element db_object_id="a9780ae34743021076b88f59e16d43bb" label="Grocery List" max_length="40" name="x_303279_uimesohun_grocery_list" type="collection">
         <element label="List Owner" max_length="32" name="list_owner" read_only="true" reference="sys_user" type="reference"/>
         <element label="Name" max_length="100" name="name" type="string"/>
-        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <index name="index">
             <element name="list_owner"/>
         </index>
