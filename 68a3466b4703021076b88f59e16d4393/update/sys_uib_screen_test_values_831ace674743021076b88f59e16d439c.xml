@@ -7,20 +7,25 @@
         "listMenuConfigurationId": "48c6565ec3013010965e070e9140dd39",
         "rowLimit": 10,
         "table": "task"
-    }
+    },
+    "45a2efd50732111017b703767cd3008d": {
+        "ciSysIds": null,
+        "filteredArray": null
+    },
+    "list-id": "0e6e0aeb4743021076b88f59e16d43af"
 }</macroponent_config>
         <screen display_value="Default">c31a0e674743021076b88f59e16d43af</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-03 14:38:11</sys_created_on>
         <sys_id>831ace674743021076b88f59e16d439c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_831ace674743021076b88f59e16d439c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-08 11:44:26</sys_updated_on>
+        <sys_updated_on>2024-08-08 09:04:28</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>
