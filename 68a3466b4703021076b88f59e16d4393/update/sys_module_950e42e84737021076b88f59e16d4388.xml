@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[import { gs } from '@servicenow/glide'
+
+
+export const coolNewFunction = function (newStatus, oldStatus) {
+    gs.addInfoMessage(`check it out ${newStatus}`);
+}
+]]></content>
+        <external_source>false</external_source>
+        <path>x_303279_uimesohun/ui_hungry_app/1.3.0/src/newFunction.js</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>rafael.oliveira</sys_created_by>
+        <sys_created_on>2024-07-31 14:00:36</sys_created_on>
+        <sys_id>950e42e84737021076b88f59e16d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_303279_uimesohun/ui_hungry_app/1.3.0/src/newFunction.js</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_module_950e42e84737021076b88f59e16d4388</sys_update_name>
+        <sys_updated_by>rafael.oliveira</sys_updated_by>
+        <sys_updated_on>2024-07-31 14:00:36</sys_updated_on>
+    </sys_module>
+</record_update>

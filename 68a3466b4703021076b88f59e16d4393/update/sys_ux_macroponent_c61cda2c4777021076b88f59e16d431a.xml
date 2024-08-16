@@ -33,9 +33,9 @@
         <sys_id>c61cda2c4777021076b88f59e16d431a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Test Component</sys_name>
-        <sys_package display_value="ui_hungry_app" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
         <sys_policy/>
-        <sys_scope display_value="ui_hungry_app">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
         <sys_update_name>sys_ux_macroponent_c61cda2c4777021076b88f59e16d431a</sys_update_name>
         <sys_updated_by>rafael.oliveira</sys_updated_by>
         <sys_updated_on>2024-07-31 15:02:22</sys_updated_on>

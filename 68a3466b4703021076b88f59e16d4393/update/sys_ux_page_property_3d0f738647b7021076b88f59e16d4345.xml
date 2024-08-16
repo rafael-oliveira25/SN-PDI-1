@@ -6,7 +6,7 @@
         <page display_value="UIhungry">8cf9ca674743021076b88f59e16d433b</page>
         <required_translations/>
         <route/>
-        <suffix/>
+        <suffix>globalSearchDataConfigId</suffix>
         <sys_class_name>sys_ux_page_property</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-05 14:05:13</sys_created_on>
