@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_asset">
+    <sys_ux_theme_asset action="INSERT_OR_UPDATE">
+        <category>image</category>
+        <name>pngwing.com (4)</name>
+        <sys_class_name>sys_ux_theme_asset</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 09:52:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d05d88b4700121076b88f59e16d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pngwing.com (4)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_theme_asset_3d05d88b4700121076b88f59e16d43fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-20 09:52:29</sys_updated_on>
+    </sys_ux_theme_asset>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>pngwing.com (4).png</file_name>
+        <hash>65b8d52a9f9a3ffd38d6bc639343b72c1558d07c4a91d80d8bf489a704583c87</hash>
+        <image_height>50</image_height>
+        <image_width>50</image_width>
+        <size_bytes>2011</size_bytes>
+        <size_compressed>2034</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 09:52:30</sys_created_on>
+        <sys_id>8e051c8b4700121076b88f59e16d4301</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-20 09:52:30</sys_updated_on>
+        <table_name>sys_ux_theme_asset</table_name>
+        <table_sys_id>3d05d88b4700121076b88f59e16d43fe</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="pngwing.com (4).png" sys_id="8e051c8b4700121076b88f59e16d4301">8e051c8b4700121076b88f59e16d4301</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 09:52:30</sys_created_on>
+        <sys_id>ce051c8b4700121076b88f59e16d4301</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AdsHJPiJUE5HDQoaCgAAAA1JSERSAAAAMgAAADIIBgAAAB4/iLEAAAABc1JHQgCuzhzpAAAHlUlEQVRoQ91ae3BMVxj/nd28PSJBPCbej0qqol4tslHUDJ1O20GbhHpUKzNomXq0hGzWimKE8Vavogip0j9qQnUU2QhSJJE2wlQSKkgQUhF57d76zrprd7O7926yGnX+unPP933n/M73ne/7nXMvg4taVNQ599YPHw/VGzCZCUIoGJoCUFqZ1wMoFsB0SgW23GzkfWzz5j5VrpgCq4sRmnzLkkexAJsNwLOWtiqYgBW3mvho6gKqVkDmjtH5eeiF4wBCajl5e2qZlUo2eGmC6r6zdp0CotEICkOO7jcIGOTsQE7JM5xUdFMN0WiYQa6ebCCaSN1wg0E4LNewK+QUCjZCs1d1RI4tWUBiwnUHGISRcgy6WkYAO7goUTVKyq4kEHV4ci6ADlKGnnN/njYxrKOjMRwCUX+UXAiGgOc8SXnmBRRpfwhrYU/YLpAXxBPW87brGZtA6nNPSLnH3p6pAaQ+spPU5K37bWUzCyC8TlzSEY144ZsiSKU0rzMWQNQRySfkFjt3TwWqKmTXK8mF8fRWwqeROyLnBOPbr9NhMAiOdZ4UTe2+sLdEIROQp7SjWHJEADPX9YNvM09AAJZFnUHZw7rzvoX7VNgak4lx0d1xv6gcF47fxtkjNx1Op1LJ/EU6YwKiDk/OkMOdRk57BSGqZxlZXy1A+3GKHPz2ZRiwcK8KWxZkYPz811Bw9SFu5ZXi6J48KbuZ2sSwniTEgRhZbFmllBZJ04DWbWdcFnL/eCCpbk9AoWSI3RNqAnIp7S7cPBTYvzpH0uZtXx8PYs0ciDr8ZBzA5ktpderhh/HR3WuI3b1ZhrUzz0up2+338FRi/s4BJiCnkwrQsXsTbIvNlGFTWKxNHLTgKZDkcjnniYiZQQjq16yGceHJvtRE6kzvPX3cMHJqV3Tt5Q+F4lk+eXi/Ej9v/QuXz9+zsOHdwA1fb+2PrTHG0Dq+/xp6hrXAxrkXZABBhTYxzIvJDisAU5b2Qsv2DWwaj40wAgmfGYRgG2DNlWhfrZqehn+KjdFsHVpXLhSDMWD/GunQIn0KL+ZMARwxoRPeHNG6BhBxw8/a0A+N/Z8dFAWDgKIbZSgv0yMg0AfeDd0sdDdFp+Nmbil/F5sQil925WHIR+3g7qHAlpgMU5+UW6hAMmfoCG3AmO8H1rCbtP0qgt9ohvbBvrxPEARsis7ArfxSBAQ24ABu55fyukPpleJfbHHjT6Gq0oCgvk0RMSuYv6Z0vmzyGan5m/qJtjBnGW7nED+Mm/dsw18+X4wju3IxY1UfbtigF6AddwpvR7RH6HuBFpN5XFqNFVPPYtCotlC934b3FReWY/WM3/lz19f98eGMblg8MVU2COPKoYipw5Orbdx2SBqiAkarRqs3Y3Vf+Lfw4jorpqVh8Oi26DW4pU0blBgWjk3B7I390NDXg8vETTjFvRXYuRHf7N984iQQQE9AJLiAbUwEhFauslwPehZDYuW0NCywEX7mVq6kF+PYvnxMWdaLvz68MxdnDhfUBQjqDIQ4kbhvUg8VoOReOSgpOGwCEBupMy3AtZwSfKe5WL9AKHXO29afz5tqROuODdF7iO2wMgdH6Vr05J0bZVg3+3z9AtFXG6DeHcrnmH6iELlZDzDqi1ccOoS8qB2bAs1TuvNX5n3sWvJHnYHUerOv/DwNJXcrTCtbXWUApVNxgvbQpB66gbzsEoz96lUu8uOaHGSl3oF690Ao3RRYP+cCiv5+JJlwzAT0TqdfUn5jeGu8M7ETKh7reYaZFNsD7YKMNWRHXBYa+3tg5FTbXikvq8aSSae5F5VuRvqiGZMCKp5iqCUs/xOU1mU3Sr/OFETR8NCI9gj7oA3IA4vGnQIdiqK3DzCNGz/lLPwCvDAxpodpstRJHCtheTY+04agTdfGXF4MK3oWgRxcfxmZuiIncLCDTlEU0fK7n3ZG32GtePGjmkBt2JgOFgXw5MHrnPwxxjiXItBNW3kjanFPePkYqQp5gbwhNhFI0o6rkocqc5ScojhDGkVlqr7d+zeHNeslikFUw7zRxibAbu4Ki/eku2RSKg9PayC0ACcOXJftEU4aSVodLo/Gi5aJohBVoSayXrGvR2gARn3uOGsVXn+EjXPTuUfERmxXTBJUHKlIymxGGm8EIu9gJRqevKgnArs0sglElCESOXh0O/i39OJnElr57LN3cTQhD+WPKFFaNvbk3KJJMKbxjORC/LThikwcZgcrZ8NrWnxvTstteUTm6DXEKIOJ9Sjn3D3sjc+WZcriqPs0vGRdPpDsl2v7oklzI0m0Di1Zo9sQojOIyNHys0uwXXtRjinLywfScOY6yPwA5TIgnkos2GlM4Xl/PsCORVmSQGxeB3GvyLygI8pO4XUmqQC/7s2XHFCuwOjp3dAlxA/xU9NQVSFx4Wnvgo4Ge2muTDmYevjEJtdjopzkJbYoWBva4uxkaisv+7OCOMBL8aHHBOZl+PT2gnmmbh9DX4Q947LP0yKY+shmLv9hwARGIyj0l3THGGD6UlTb7ONQ73n+wmE+8P/+pxrrVXTVb06AEH/bt8HC//w3J1thwUE9KBsiMBbl8MczAfcExlJc/ePZv/qxbmZ24zv1AAAAAElFTkSuQmCCwrkb59sHAAA=</data>
+        <length>2700</length>
+        <position>1</position>
+        <sys_attachment display_value="pngwing.com (4).png" sys_id="8e051c8b4700121076b88f59e16d4301">8e051c8b4700121076b88f59e16d4301</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 09:52:30</sys_created_on>
+        <sys_id>42051c8b4700121076b88f59e16d4302</sys_id>
+    </sys_attachment_doc>
+</record_update>
