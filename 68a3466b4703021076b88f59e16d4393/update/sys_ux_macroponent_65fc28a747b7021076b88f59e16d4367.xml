@@ -1149,6 +1149,203 @@
                                 },
                                 "slot": null,
                                 "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "63ea66b3c5a122819f729b7254789c34",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "pagination_control_1",
+                                "elementLabel": "Pagination control 1",
+                                "eventMappings": [
+                                    {
+                                        "eventMappingId": "cmaacciijsggnaabbgmddffhhueenddcptiim",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_pagination_cont.NOW_PAGINATION_CONTROL#SELECTED_PAGE_SET",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_pagination_cont.NOW_PAGINATION_CONTROL#SELECTED_PAGE_SET",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                                                    "payload": {
+                                                        "container": {
+                                                            "propName": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "itempPageOffset"
+                                                            },
+                                                            "value": {
+                                                                "operation": {
+                                                                    "left": {
+                                                                        "binding": {
+                                                                            "address": [
+                                                                                "value"
+                                                                            ]
+                                                                        },
+                                                                        "type": "EVENT_PAYLOAD_BINDING"
+                                                                    },
+                                                                    "operator": "MULTIPLY",
+                                                                    "right": {
+                                                                        "binding": {
+                                                                            "address": [
+                                                                                "itemLimit"
+                                                                            ]
+                                                                        },
+                                                                        "type": "STATE_BINDING"
+                                                                    }
+                                                                },
+                                                                "type": "BINARY"
+                                                            }
+                                                        },
+                                                        "type": "MAP_CONTAINER"
+                                                    },
+                                                    "sysId": "32408b42ff7a10109046e490703bf176"
+                                                },
+                                                "operation": null,
+                                                "targetId": "cmaacciijsggnaabbgnddffhhupwfckweem",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "eventMappingId": "cmaacciikznbaabbhvddffhhuybbwugiudd",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_pagination_cont.NOW_PAGINATION_CONTROL#SELECTED_PAGE_SIZE_SET",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_pagination_cont.NOW_PAGINATION_CONTROL#SELECTED_PAGE_SIZE_SET",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                                                    "payload": {
+                                                        "container": {
+                                                            "propName": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "itemLimit"
+                                                            },
+                                                            "value": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "value"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            }
+                                                        },
+                                                        "type": "MAP_CONTAINER"
+                                                    },
+                                                    "sysId": "32408b42ff7a10109046e490703bf176"
+                                                },
+                                                "operation": null,
+                                                "targetId": "cmaacciikznbaabbhwddffhhuiiftggsggzbb",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "preset": null,
+                                "propertyValues": {
+                                    "hideGoToFirst": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "hideGoToLast": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "hideGoToNext": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "hideGoToPrevious": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "hidePageNumbers": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "hidePageSizeControl": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "hideRange": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "pageSizeLabel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "pageSizes": {
+                                        "type": "JSON_LITERAL",
+                                        "value": [
+                                            10,
+                                            20,
+                                            50,
+                                            100
+                                        ]
+                                    },
+                                    "pagesOverride": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "rangeLabel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "selectedPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "0"
+                                    },
+                                    "selectedPageSize": {
+                                        "binding": {
+                                            "address": [
+                                                "itemLimit"
+                                            ]
+                                        },
+                                        "type": "STATE_BINDING"
+                                    },
+                                    "total": {
+                                        "binding": {
+                                            "address": [
+                                                "available_items_count",
+                                                "output",
+                                                "data",
+                                                "GlideAggregate_Query",
+                                                "0",
+                                                "count"
+                                            ]
+                                        },
+                                        "type": "DATA_OUTPUT_BINDING"
+                                    },
+                                    "visiblePages": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "5"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
                             }
                         ],
                         "layout": {
@@ -1175,6 +1372,10 @@
                                     },
                                     {
                                         "element_id": "repeater_available_items",
+                                        "styles": {}
+                                    },
+                                    {
+                                        "element_id": "pagination_control_1",
                                         "styles": {}
                                     }
                                 ],
@@ -1763,6 +1964,24 @@
                                                                                         }
                                                                                     },
                                                                                     "targetId": "clztpccggrccaabbsuddffhhthbbjjmbzzaa",
+                                                                                    "type": "DATABROKER_OP"
+                                                                                },
+                                                                                {
+                                                                                    "broker": null,
+                                                                                    "clientScript": null,
+                                                                                    "conditional": null,
+                                                                                    "declarativeAction": null,
+                                                                                    "event": null,
+                                                                                    "operation": {
+                                                                                        "dataBrokerId": "b997a84053021010cbc2ddeeff7b1228",
+                                                                                        "operationName": "REFRESH",
+                                                                                        "parentResourceId": "look_up_available_item",
+                                                                                        "payload": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    },
+                                                                                    "targetId": "cmaacciioteeffaabbjcddffhhubbbuuewan",
                                                                                     "type": "DATABROKER_OP"
                                                                                 }
                                                                             ]
@@ -3120,12 +3339,20 @@
                 "type": "CLIENT_TRANSFORM"
             },
             "limit": {
-                "type": "JSON_LITERAL",
-                "value": "1000"
+                "binding": {
+                    "address": [
+                        "itemLimit"
+                    ]
+                },
+                "type": "STATE_BINDING"
             },
             "offset": {
-                "type": "JSON_LITERAL",
-                "value": null
+                "binding": {
+                    "address": [
+                        "itempPageOffset"
+                    ]
+                },
+                "type": "STATE_BINDING"
             },
             "orderBy": {
                 "type": "JSON_LITERAL",
@@ -3411,6 +3638,24 @@
                         },
                         "targetId": "clzmueyubaaeemccddffhhtxwiiuxffhd",
                         "type": "DATABROKER_OP"
+                    },
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": {
+                            "dataBrokerId": "546cccd25310101024e5ddeeff7b123b",
+                            "operationName": "REFRESH",
+                            "parentResourceId": "available_items_count",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {}
+                            }
+                        },
+                        "targetId": "cmaacciipzccuaabbjfddffhhuizkgihce",
+                        "type": "DATABROKER_OP"
                     }
                 ]
             }
@@ -3482,6 +3727,24 @@
                             }
                         },
                         "targetId": "clztpnhpzaacciihddffhhtuhdtiiheh",
+                        "type": "DATABROKER_OP"
+                    },
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": {
+                            "dataBrokerId": "546cccd25310101024e5ddeeff7b123b",
+                            "operationName": "REFRESH",
+                            "parentResourceId": "available_items_count",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {}
+                            }
+                        },
+                        "targetId": "cmaacciiqqfiiaabbjhddffhhuffuviidex",
                         "type": "DATABROKER_OP"
                     }
                 ]
@@ -3784,6 +4047,90 @@
             }
         },
         "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "546cccd25310101024e5ddeeff7b123b",
+            "type": "GRAPHQL"
+        },
+        "elementId": "available_items_count",
+        "elementLabel": "Available Items Count",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "avgField": {
+                "type": "JSON_LITERAL"
+            },
+            "encodedQuery": {
+                "transform": {
+                    "operands": {
+                        "container": [
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "active=true^list.sys_id="
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "current"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            },
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "^nameLIKE"
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "searchTerm"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            }
+                        ],
+                        "type": "LIST_CONTAINER"
+                    },
+                    "operator": "CONCAT"
+                },
+                "type": "CLIENT_TRANSFORM"
+            },
+            "groupBy": {
+                "type": "JSON_LITERAL"
+            },
+            "having": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "maxField": {
+                "type": "JSON_LITERAL"
+            },
+            "minField": {
+                "type": "JSON_LITERAL"
+            },
+            "orderBy": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "queryCategory": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "returnRowCount": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "sumField": {
+                "type": "JSON_LITERAL"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_303279_uimesohun_grocery_items"
+            }
+        },
+        "readEvaluationMode": "EAGER"
     }
 ]</data>
         <description/>
@@ -3909,20 +4256,42 @@
         "name": "newItemName",
         "shape": "",
         "valueType": "string"
+    },
+    {
+        "fieldType": "number",
+        "id": "",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": 10
+        },
+        "name": "itemLimit",
+        "shape": "",
+        "valueType": "number"
+    },
+    {
+        "fieldType": "number",
+        "id": "",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": 0
+        },
+        "name": "itempPageOffset",
+        "shape": "",
+        "valueType": "number"
     }
 ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-09 14:38:19</sys_created_on>
         <sys_id>65fc28a747b7021076b88f59e16d4367</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
         <sys_update_name>sys_ux_macroponent_65fc28a747b7021076b88f59e16d4367</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-16 10:19:15</sys_updated_on>
+        <sys_updated_on>2024-08-20 09:47:16</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=65fc28a747b7021076b88f59e16d4367"/>
 </record_update>
