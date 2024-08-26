@@ -110,7 +110,20 @@
                                                 "value": null
                                             },
                                             "preset": null,
-                                            "propertyValues": {},
+                                            "propertyValues": {
+                                                "color": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "image": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "text": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "uihungry"
+                                                }
+                                            },
                                             "slot": null,
                                             "styles": null
                                         }
@@ -4284,14 +4297,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-09 14:38:19</sys_created_on>
         <sys_id>65fc28a747b7021076b88f59e16d4367</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
         <sys_update_name>sys_ux_macroponent_65fc28a747b7021076b88f59e16d4367</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-20 09:47:16</sys_updated_on>
+        <sys_updated_on>2024-08-26 15:13:37</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=65fc28a747b7021076b88f59e16d4367"/>
 </record_update>
