@@ -110,7 +110,12 @@
                                                 "value": null
                                             },
                                             "preset": null,
-                                            "propertyValues": {},
+                                            "propertyValues": {
+                                                "text": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "UIhungry"
+                                                }
+                                            },
                                             "slot": null,
                                             "styles": null
                                         }
@@ -1096,14 +1101,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-16 09:38:13</sys_created_on>
         <sys_id>b56babe14740121076b88f59e16d43c2</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
         <sys_update_name>sys_ux_macroponent_b56babe14740121076b88f59e16d43c2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-16 10:12:02</sys_updated_on>
+        <sys_updated_on>2024-08-26 15:13:12</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=b56babe14740121076b88f59e16d43c2"/>
 </record_update>
