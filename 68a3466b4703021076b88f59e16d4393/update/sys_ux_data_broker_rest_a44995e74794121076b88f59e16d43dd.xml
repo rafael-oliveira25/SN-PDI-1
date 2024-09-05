@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_rest">
+    <sys_ux_data_broker_rest action="INSERT_OR_UPDATE">
+        <api_name>x_303279_uimesohun.CreateAvailableRecords</api_name>
+        <api_url>/api/x_303279_uimesohun/createselectedrecords/create_selected_records/{{current_list}}/{{selected_records}}</api_url>
+        <description/>
+        <http_method>POST</http_method>
+        <mutates_server_data>true</mutates_server_data>
+        <name>CreateAvailableRecords</name>
+        <output_schema/>
+        <parameters/>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+    "name": "current_list",&#13;
+    "label": "Current List",&#13;
+    "description": "current_list",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "string",&#13;
+    "mandatory": false,&#13;
+    "defaultValue": ""&#13;
+  },&#13;
+{&#13;
+    "name": "selected_records",&#13;
+    "label": "Selected Records",&#13;
+    "description": "selected_records",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "string",&#13;
+    "mandatory": false,&#13;
+    "defaultValue": "123,123"&#13;
+  }&#13;
+]</props>
+        <request_body>{"current_list" : "{{current_list}}", &#13;
+"selected_records" : "{{selected_records}}"&#13;
+}</request_body>
+        <required_translations>[ {
+  "message" : "Current List",
+  "comment" : ""
+}, {
+  "message" : "Selected Records",
+  "comment" : ""
+}, {
+  "message" : "current_list",
+  "comment" : ""
+}, {
+  "message" : "selected_records",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_data_broker_rest</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-03 14:25:01</sys_created_on>
+        <sys_id>a44995e74794121076b88f59e16d43dd</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>CreateAvailableRecords</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_data_broker_rest_a44995e74794121076b88f59e16d43dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:50:13</sys_updated_on>
+    </sys_ux_data_broker_rest>
+    <sys_translated_text action="delete_multiple" query="documentkey=a44995e74794121076b88f59e16d43dd"/>
+</record_update>

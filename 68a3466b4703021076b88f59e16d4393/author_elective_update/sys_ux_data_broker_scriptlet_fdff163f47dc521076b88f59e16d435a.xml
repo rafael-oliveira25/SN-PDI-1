@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_scriptlet">
+    <sys_ux_data_broker_scriptlet action="DELETE">
+        <api_name>x_303279_uimesohun.testscriplet</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>testscriplet</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+    "name": "Selected Records",&#13;
+    "label": "selected_records",&#13;
+    "description": "selected_records",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "string",&#13;
+    "mandatory": false,&#13;
+    "defaultValue": "1213123"&#13;
+  }&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "selected_records",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform (input){
+
+
+	var test = input["Selected Records"];
+
+
+	var gr = new GlideRecord("x_303279_uimesohun_grocery_items");
+	gr.initialize();
+
+	gr.setValue("name", "asdasd");
+	gr.setValue("quantity", "12");
+	gr.insert();
+
+	return test;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_scriptlet</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 14:12:18</sys_created_on>
+        <sys_id>fdff163f47dc521076b88f59e16d435a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>testscriplet</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_data_broker_scriptlet_fdff163f47dc521076b88f59e16d435a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:19:30</sys_updated_on>
+    </sys_ux_data_broker_scriptlet>
+    <sys_translated_text action="DELETE" query="documentkey=fdff163f47dc521076b88f59e16d435a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</application>
+        <file_path/>
+        <instance_id>a2dba30a1bfef590fe1b43f4bd4bcb14</instance_id>
+        <instance_name>dev230214</instance_name>
+        <name>sys_ux_data_broker_scriptlet_fdff163f47dc521076b88f59e16d435a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_data_broker_scriptlet"&gt;&lt;sys_ux_data_broker_scriptlet action="INSERT_OR_UPDATE"&gt;&lt;api_name&gt;x_303279_uimesohun.testscriplet&lt;/api_name&gt;&lt;description/&gt;&lt;mutates_server_data&gt;false&lt;/mutates_server_data&gt;&lt;name&gt;testscriplet&lt;/name&gt;&lt;output_schema/&gt;&lt;private&gt;false&lt;/private&gt;&lt;props&gt;[&amp;#13;
+{&amp;#13;
+    "name": "Selected Records",&amp;#13;
+    "label": "selected_records",&amp;#13;
+    "description": "selected_records",&amp;#13;
+    "readOnly": false,&amp;#13;
+    "fieldType": "string",&amp;#13;
+    "mandatory": false,&amp;#13;
+    "defaultValue": "1213123"&amp;#13;
+  }&amp;#13;
+]&lt;/props&gt;&lt;required_translations&gt;[ {
+  "message" : "selected_records",
+  "comment" : ""
+} ]&lt;/required_translations&gt;&lt;schema_version&gt;1.0.0&lt;/schema_version&gt;&lt;script&gt;&lt;![CDATA[function transform (input){
+
+
+	var test = input["Selected Records"];
+
+
+	var gr = new GlideRecord("x_303279_uimesohun_grocery_items");
+	gr.initialize();
+
+	gr.setValue("name", "asdasd");
+	gr.setValue("quantity", "12");
+	gr.insert();
+
+	return test;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_ux_data_broker_scriptlet&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-04 14:12:18&lt;/sys_created_on&gt;&lt;sys_id&gt;fdff163f47dc521076b88f59e16d435a&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;testscriplet&lt;/sys_name&gt;&lt;sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun"&gt;68a3466b4703021076b88f59e16d4393&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="UIMeSoHungry"&gt;68a3466b4703021076b88f59e16d4393&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_data_broker_scriptlet_fdff163f47dc521076b88f59e16d435a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-04 14:19:30&lt;/sys_updated_on&gt;&lt;/sys_ux_data_broker_scriptlet&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=fdff163f47dc521076b88f59e16d435a"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>615692933</payload_hash>
+        <record_name>testscriplet</record_name>
+        <reverted_from/>
+        <source>066a955a4700d21076b88f59e16d4379</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 14:19:30</sys_created_on>
+        <sys_id>aff1eaff47dc521076b88f59e16d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191bd679f430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:19:30</sys_updated_on>
+        <type>Data Broker Scriptlet</type>
+        <update_guid>a3f1e6ff6edc52108d5440b7802c6f95</update_guid>
+        <update_guid_history>a3f1e6ff6edc52108d5440b7802c6f95:615692933,74712ebf9fdc52107be7403d27f47ab5:2007869237,a32166bfe2dc52103cd0753cf4963207:-1443314444,90d0e67faddc52107d6fe428020740d6:1144506848,28a0627f18dc5210ca19ba6e6f622f9e:1086341998,0e506ebbcbdc52107389d55d1a187121:-687894411</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 14:46:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_data_broker_scriptlet">sys_ux_data_broker_scriptlet</sys_db_object>
+        <sys_id>6c6084809ab44db4bce53c96e19ffeb9</sys_id>
+        <sys_metadata>fdff163f47dc521076b88f59e16d435a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testscriplet</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_scope_delete display_value="">5dd250ca172a4aaa9b7e603a6bd157c4</sys_scope_delete>
+        <sys_update_name>sys_ux_data_broker_scriptlet_fdff163f47dc521076b88f59e16d435a</sys_update_name>
+        <sys_update_version display_value="sys_ux_data_broker_scriptlet_fdff163f47dc521076b88f59e16d435a">aff1eaff47dc521076b88f59e16d435f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:46:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
