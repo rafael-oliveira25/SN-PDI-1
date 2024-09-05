@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="DELETE">
+        <acl_failure_result/>
+        <api_name>x_303279_uimesohun.TestSelectedRecords</api_name>
+        <description>TestSelectedRecords </description>
+        <mutates_server_data>true</mutates_server_data>
+        <name>TestSelectedRecords</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+    "name": "Selected Records",&#13;
+    "label": "selected_records",&#13;
+    "description": "selected_records",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "string",&#13;
+    "mandatory": false,&#13;
+    "defaultValue": "1213123"&#13;
+  }&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "selected_records",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+
+// gs.info("#RO " + input.selected_records);
+// var request = new sn_ws.RESTMessageV2();
+// request.setEndpoint('https://dev230214.service-now.com/api/x_303279_uimesohun/createselectedrecords/create_selected_records/undefined');
+// request.setHttpMethod('POST');
+
+// //Eg. UserName="admin", Password="admin" for this code sample.
+// var user = 'admin';
+// var password = 'admin';
+
+// request.setBasicAuth(user,password);
+// request.setRequestHeader("Accept","application/json");
+
+// var response = request.execute();
+// gs.log(response.getBody());
+
+
+return [{
+	name: "basldnalsnd"
+}];
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 13:50:08</sys_created_on>
+        <sys_id>6eca127747dc521076b88f59e16d43fb</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>TestSelectedRecords</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_6eca127747dc521076b88f59e16d43fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:24:34</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="DELETE" query="documentkey=6eca127747dc521076b88f59e16d43fb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</application>
+        <file_path/>
+        <instance_id>a2dba30a1bfef590fe1b43f4bd4bcb14</instance_id>
+        <instance_name>dev230214</instance_name>
+        <name>sys_ux_data_broker_transform_6eca127747dc521076b88f59e16d43fb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_data_broker_transform"&gt;&lt;sys_ux_data_broker_transform action="INSERT_OR_UPDATE"&gt;&lt;acl_failure_result/&gt;&lt;api_name&gt;x_303279_uimesohun.TestSelectedRecords&lt;/api_name&gt;&lt;description&gt;TestSelectedRecords &lt;/description&gt;&lt;mutates_server_data&gt;true&lt;/mutates_server_data&gt;&lt;name&gt;TestSelectedRecords&lt;/name&gt;&lt;output_schema/&gt;&lt;private&gt;false&lt;/private&gt;&lt;props&gt;[&amp;#13;
+{&amp;#13;
+    "name": "Selected Records",&amp;#13;
+    "label": "selected_records",&amp;#13;
+    "description": "selected_records",&amp;#13;
+    "readOnly": false,&amp;#13;
+    "fieldType": "string",&amp;#13;
+    "mandatory": false,&amp;#13;
+    "defaultValue": "1213123"&amp;#13;
+  }&amp;#13;
+]&lt;/props&gt;&lt;required_translations&gt;[ {
+  "message" : "selected_records",
+  "comment" : ""
+} ]&lt;/required_translations&gt;&lt;schema_version&gt;1.0.0&lt;/schema_version&gt;&lt;script&gt;&lt;![CDATA[function transform(input) {
+
+// gs.info("#RO " + input.selected_records);
+// var request = new sn_ws.RESTMessageV2();
+// request.setEndpoint('https://dev230214.service-now.com/api/x_303279_uimesohun/createselectedrecords/create_selected_records/undefined');
+// request.setHttpMethod('POST');
+
+// //Eg. UserName="admin", Password="admin" for this code sample.
+// var user = 'admin';
+// var password = 'admin';
+
+// request.setBasicAuth(user,password);
+// request.setRequestHeader("Accept","application/json");
+
+// var response = request.execute();
+// gs.log(response.getBody());
+
+
+return [{
+	name: "basldnalsnd"
+}];
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_ux_data_broker_transform&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-04 13:50:08&lt;/sys_created_on&gt;&lt;sys_id&gt;6eca127747dc521076b88f59e16d43fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;TestSelectedRecords&lt;/sys_name&gt;&lt;sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun"&gt;68a3466b4703021076b88f59e16d4393&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="UIMeSoHungry"&gt;68a3466b4703021076b88f59e16d4393&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_data_broker_transform_6eca127747dc521076b88f59e16d43fb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-04 14:24:34&lt;/sys_updated_on&gt;&lt;/sys_ux_data_broker_transform&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6eca127747dc521076b88f59e16d43fb"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>370826315</payload_hash>
+        <record_name>TestSelectedRecords</record_name>
+        <reverted_from/>
+        <source>066a955a4700d21076b88f59e16d4379</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 14:24:34</sys_created_on>
+        <sys_id>b1232eff47dc521076b88f59e16d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191bd6c43720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:24:34</sys_updated_on>
+        <type>Data Broker Server Script</type>
+        <update_guid>39232effb8dc5210cce19373e4b6b75d</update_guid>
+        <update_guid_history>39232effb8dc5210cce19373e4b6b75d:370826315,fe3e523b35dc52105a8cfd28c937bd10:1400248179,8bcd523bbedc5210227e1f5f4bd0ab8d:-1019738734,629d1e3b38dc52103a81988ae4d7f49c:-88119366,404ddef74ddc52109ab4cc91cafdf0fd:1914677526,ffebd637c8dc521047b4ec787bfe8463:-1523111979,0b4b1e37c9dc52108d62ec39e0438413:-451073703,554b96778bdc52106961838bd24a7259:-1113592276</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-05 08:24:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_data_broker_transform">sys_ux_data_broker_transform</sys_db_object>
+        <sys_id>1880adde6743484883dc1d9532b75910</sys_id>
+        <sys_metadata>6eca127747dc521076b88f59e16d43fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestSelectedRecords</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_scope_delete display_value="">5dd250ca172a4aaa9b7e603a6bd157c4</sys_scope_delete>
+        <sys_update_name>sys_ux_data_broker_transform_6eca127747dc521076b88f59e16d43fb</sys_update_name>
+        <sys_update_version display_value="sys_ux_data_broker_transform_6eca127747dc521076b88f59e16d43fb">b1232eff47dc521076b88f59e16d435e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 08:24:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

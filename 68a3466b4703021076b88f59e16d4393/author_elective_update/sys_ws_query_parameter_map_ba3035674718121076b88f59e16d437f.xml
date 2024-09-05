@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map">
+    <sys_ws_query_parameter_map action="DELETE">
+        <sys_class_name>sys_ws_query_parameter_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-03 16:04:49</sys_created_on>
+        <sys_id>ba3035674718121076b88f59e16d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c44075674718121076b88f59e16d4325</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_map_ba3035674718121076b88f59e16d437f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-03 16:04:49</sys_updated_on>
+        <web_service_operation display_value="create_selected_records">eb9a916b4794121076b88f59e16d4325</web_service_operation>
+        <web_service_query_parameter display_value="selected_records">c44075674718121076b88f59e16d4325</web_service_query_parameter>
+    </sys_ws_query_parameter_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</application>
+        <file_path/>
+        <instance_id>a2dba30a1bfef590fe1b43f4bd4bcb14</instance_id>
+        <instance_name>dev230214</instance_name>
+        <name>sys_ws_query_parameter_map_ba3035674718121076b88f59e16d437f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map"><sys_ws_query_parameter_map action="INSERT_OR_UPDATE"><sys_class_name>sys_ws_query_parameter_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-03 16:04:49</sys_created_on><sys_id>ba3035674718121076b88f59e16d437f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>c44075674718121076b88f59e16d4325</sys_name><sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package><sys_policy/><sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope><sys_update_name>sys_ws_query_parameter_map_ba3035674718121076b88f59e16d437f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-03 16:04:49</sys_updated_on><web_service_operation display_value="create_selected_records">eb9a916b4794121076b88f59e16d4325</web_service_operation><web_service_query_parameter display_value="selected_records">c44075674718121076b88f59e16d4325</web_service_query_parameter></sys_ws_query_parameter_map></record_update>]]></payload>
+        <payload_hash>-1203392208</payload_hash>
+        <record_name>c44075674718121076b88f59e16d4325</record_name>
+        <reverted_from/>
+        <source>066a955a4700d21076b88f59e16d4379</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-03 16:04:49</sys_created_on>
+        <sys_id>188035674718121076b88f59e16d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191b8a1ae920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-03 16:04:49</sys_updated_on>
+        <type>Scripted REST Query Parameter Associatio</type>
+        <update_guid>1c803567451812103d86c258da7dd1b5</update_guid>
+        <update_guid_history>1c803567451812103d86c258da7dd1b5:-1203392208</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-05 08:30:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_query_parameter_map">sys_ws_query_parameter_map</sys_db_object>
+        <sys_id>07e216d2d43b4c78b4bf90866ba90424</sys_id>
+        <sys_metadata>ba3035674718121076b88f59e16d437f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c44075674718121076b88f59e16d4325</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_scope_delete display_value="">5dd250ca172a4aaa9b7e603a6bd157c4</sys_scope_delete>
+        <sys_update_name>sys_ws_query_parameter_map_ba3035674718121076b88f59e16d437f</sys_update_name>
+        <sys_update_version display_value="sys_ws_query_parameter_map_ba3035674718121076b88f59e16d437f">188035674718121076b88f59e16d43b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 08:30:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

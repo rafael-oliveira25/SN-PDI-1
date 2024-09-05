@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>create_selected_records</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var arr_selected_records = JSON.parse(request.pathParams.selected_records)
+
+    arr_selected_records.forEach(function (element) {
+        
+        var groceryItemGR = new GlideRecord("x_303279_uimesohun_grocery_items");
+        if (groceryItemGR.get(element)){
+
+            var newItemGR = new GlideRecord("x_303279_uimesohun_grocery_items");
+            newItemGR.initialize();
+            newItemGR.setValue("name", groceryItemGR.getValue("name"));
+            newItemGR.setValue("list", request.pathParams.current_list);
+            newItemGR.setValue("active", true);
+            newItemGR.insert();
+        }
+    });
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_303279_uimesohun/createselectedrecords/create_selected_records/{current_list}/{selected_records}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/create_selected_records/{current_list}/{selected_records}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-03 14:30:14</sys_created_on>
+        <sys_id>eb9a916b4794121076b88f59e16d4325</sys_id>
+        <sys_mod_count>66</sys_mod_count>
+        <sys_name>create_selected_records</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ws_operation_eb9a916b4794121076b88f59e16d4325</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 08:36:53</sys_updated_on>
+        <web_service_definition display_value="CreateSelectedRecords">077a9d2b4794121076b88f59e16d43e2</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

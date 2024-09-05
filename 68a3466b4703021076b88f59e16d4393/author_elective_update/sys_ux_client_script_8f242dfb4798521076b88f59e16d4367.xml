@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">65fc28a747b7021076b88f59e16d4367</macroponent>
+        <name>Testing Rest API</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+
+
+console.log("#RO new script ", api.state.selectedItems.toString());
+    api.data.createavailablerecords_2.execute({
+        selected_records : api.state.selectedItems
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 09:57:26</sys_created_on>
+        <sys_id>8f242dfb4798521076b88f59e16d4367</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Testing Rest API</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_update_name>sys_ux_client_script_8f242dfb4798521076b88f59e16d4367</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 10:03:08</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</application>
+        <file_path/>
+        <instance_id>a2dba30a1bfef590fe1b43f4bd4bcb14</instance_id>
+        <instance_name>dev230214</instance_name>
+        <name>sys_ux_client_script_8f242dfb4798521076b88f59e16d4367</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;65fc28a747b7021076b88f59e16d4367&lt;/macroponent&gt;&lt;name&gt;Testing Rest API&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+
+
+console.log("#RO new script ", api.state.selectedItems.toString());
+    api.data.createavailablerecords_2.execute({
+        selected_records : api.state.selectedItems
+    });
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-04 09:57:26&lt;/sys_created_on&gt;&lt;sys_id&gt;8f242dfb4798521076b88f59e16d4367&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Testing Rest API&lt;/sys_name&gt;&lt;sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun"&gt;68a3466b4703021076b88f59e16d4393&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="UIMeSoHungry"&gt;68a3466b4703021076b88f59e16d4393&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_8f242dfb4798521076b88f59e16d4367&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-04 10:03:08&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>670033243</payload_hash>
+        <record_name>Testing Rest API</record_name>
+        <reverted_from/>
+        <source>066a955a4700d21076b88f59e16d4379</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 10:03:08</sys_created_on>
+        <sys_id>4057edf347d8521076b88f59e16d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191bc7cea030000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 10:03:08</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>c457edf3b3d852105ed3c1bb65a9b36e</update_guid>
+        <update_guid_history>c457edf3b3d852105ed3c1bb65a9b36e:670033243,7406a9737dd852104fce1e1c88af539d:394509566</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 14:42:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0672a765cbbd462581fb2e38308c7ab9</sys_id>
+        <sys_metadata>8f242dfb4798521076b88f59e16d4367</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Testing Rest API</sys_name>
+        <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
+        <sys_scope_delete display_value="">5dd250ca172a4aaa9b7e603a6bd157c4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_8f242dfb4798521076b88f59e16d4367</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_8f242dfb4798521076b88f59e16d4367">4057edf347d8521076b88f59e16d436f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:42:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
