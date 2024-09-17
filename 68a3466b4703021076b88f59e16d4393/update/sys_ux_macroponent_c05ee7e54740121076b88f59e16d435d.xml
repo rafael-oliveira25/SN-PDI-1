@@ -1310,9 +1310,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {
-                                                "width": "100%"
-                                            }
+                                            "styles": null
                                         }
                                     ],
                                     "layout": {
@@ -2007,7 +2005,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {}
+                                            "styles": null
                                         }
                                     ],
                                     "layout": {
@@ -2671,7 +2669,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {}
+                                            "styles": null
                                         }
                                     ],
                                     "layout": {
@@ -2785,9 +2783,7 @@
                                             },
                                             "propertyValues": {},
                                             "slot": null,
-                                            "styles": {
-                                                "position": "relative"
-                                            }
+                                            "styles": null
                                         }
                                     ],
                                     "layout": {
@@ -2797,7 +2793,9 @@
                                             "items": [
                                                 {
                                                     "element_id": "attachment",
-                                                    "styles": {}
+                                                    "styles": {
+                                                        "position": "relative"
+                                                    }
                                                 }
                                             ],
                                             "root": null,
@@ -2921,14 +2919,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {
-                                                "height": "100%",
-                                                "margin-left": "var(--now-scalable-space--lg)",
-                                                "margin-right": "var(--now-scalable-space--lg)",
-                                                "margin-top": "var(--now-scalable-space--lg)",
-                                                "position": "relative",
-                                                "width": "100%"
-                                            }
+                                            "styles": null
                                         }
                                     ],
                                     "layout": {
@@ -2938,7 +2929,14 @@
                                             "items": [
                                                 {
                                                     "element_id": "form_templates",
-                                                    "styles": {}
+                                                    "styles": {
+                                                        "height": "100%",
+                                                        "margin-left": "var(--now-scalable-space--lg)",
+                                                        "margin-right": "var(--now-scalable-space--lg)",
+                                                        "margin-top": "var(--now-scalable-space--lg)",
+                                                        "position": "relative",
+                                                        "width": "100%"
+                                                    }
                                                 }
                                             ],
                                             "root": null,
@@ -3150,7 +3148,7 @@
                                             },
                                             "propertyValues": {},
                                             "slot": null,
-                                            "styles": {}
+                                            "styles": null
                                         }
                                     ],
                                     "layout": {
@@ -3351,9 +3349,36 @@
             }
         },
         "slot": null,
-        "styles": {
-            "width": "100%"
-        }
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "0d85bd7c7f66024317f6981f538353cb",
+            "type": "MACROPONENT"
+        },
+        "elementId": "loading_circle_component_1",
+        "elementLabel": "Loading Circle Component 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "operation": {
+                "operand": {
+                    "binding": {
+                        "address": [
+                            "isLoading"
+                        ]
+                    },
+                    "type": "STATE_BINDING"
+                },
+                "operator": "NOT"
+            },
+            "type": "UNARY"
+        },
+        "preset": null,
+        "propertyValues": {},
+        "slot": null,
+        "styles": null
     },
     {
         "definition": {
@@ -3618,11 +3643,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {
-                                                "height": "42px",
-                                                "margin-inline-end": "0.75rem",
-                                                "max-width": "42px"
-                                            }
+                                            "styles": null
                                         },
                                         {
                                             "definition": {
@@ -3704,9 +3725,7 @@
                                                                     },
                                                                     "propertyValues": {},
                                                                     "slot": null,
-                                                                    "styles": {
-                                                                        "min-width": "0"
-                                                                    }
+                                                                    "styles": null
                                                                 },
                                                                 {
                                                                     "definition": {
@@ -3777,10 +3796,7 @@
                                                                     },
                                                                     "propertyValues": {},
                                                                     "slot": null,
-                                                                    "styles": {
-                                                                        "margin-left": "0.25rem",
-                                                                        "margin-right": "1rem"
-                                                                    }
+                                                                    "styles": null
                                                                 }
                                                             ],
                                                             "layout": {
@@ -3790,11 +3806,16 @@
                                                                     "items": [
                                                                         {
                                                                             "element_id": "primary_field",
-                                                                            "styles": {}
+                                                                            "styles": {
+                                                                                "min-width": "0"
+                                                                            }
                                                                         },
                                                                         {
                                                                             "element_id": "record_tags",
-                                                                            "styles": {}
+                                                                            "styles": {
+                                                                                "margin-left": "0.25rem",
+                                                                                "margin-right": "1rem"
+                                                                            }
                                                                         }
                                                                     ],
                                                                     "root": null,
@@ -3836,9 +3857,7 @@
                                                             }
                                                         },
                                                         "slot": null,
-                                                        "styles": {
-                                                            "flex-direction": "column"
-                                                        }
+                                                        "styles": null
                                                     },
                                                     {
                                                         "definition": {
@@ -3912,9 +3931,7 @@
                                                         },
                                                         "propertyValues": {},
                                                         "slot": null,
-                                                        "styles": {
-                                                            "margin-top": "0.5rem"
-                                                        }
+                                                        "styles": null
                                                     },
                                                     {
                                                         "definition": {
@@ -4080,10 +4097,7 @@
                                                             }
                                                         },
                                                         "slot": null,
-                                                        "styles": {
-                                                            "max-width": "200%",
-                                                            "width": "max-content"
-                                                        }
+                                                        "styles": null
                                                     }
                                                 ],
                                                 "layout": {
@@ -4093,15 +4107,22 @@
                                                         "items": [
                                                             {
                                                                 "element_id": "header_title_row",
-                                                                "styles": {}
+                                                                "styles": {
+                                                                    "flex-direction": "column"
+                                                                }
                                                             },
                                                             {
                                                                 "element_id": "subheading",
-                                                                "styles": {}
+                                                                "styles": {
+                                                                    "margin-top": "0.5rem"
+                                                                }
                                                             },
                                                             {
                                                                 "element_id": "secondary_items",
-                                                                "styles": {}
+                                                                "styles": {
+                                                                    "max-width": "200%",
+                                                                    "width": "max-content"
+                                                                }
                                                             }
                                                         ],
                                                         "root": null,
@@ -4142,9 +4163,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {
-                                                "width": ""
-                                            }
+                                            "styles": null
                                         }
                                     ],
                                     "layout": {
@@ -4154,11 +4173,17 @@
                                             "items": [
                                                 {
                                                     "element_id": "header_image",
-                                                    "styles": {}
+                                                    "styles": {
+                                                        "height": "42px",
+                                                        "margin-inline-end": "0.75rem",
+                                                        "max-width": "42px"
+                                                    }
                                                 },
                                                 {
                                                     "element_id": "header_content",
-                                                    "styles": {}
+                                                    "styles": {
+                                                        "width": ""
+                                                    }
                                                 },
                                                 {
                                                     "element_id": "top_right_container",
@@ -4204,9 +4229,7 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": {
-                                    "width": "100%"
-                                }
+                                "styles": null
                             }
                         ],
                         "layout": {
@@ -4217,7 +4240,9 @@
                                     {
                                         "element_id": "header_container",
                                         "rules": {},
-                                        "styles": {}
+                                        "styles": {
+                                            "width": "100%"
+                                        }
                                     }
                                 ],
                                 "root": null,
@@ -4260,9 +4285,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": {
-                        "min-width": "0px"
-                    }
+                    "styles": null
                 },
                 {
                     "definition": {
@@ -4441,7 +4464,7 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": {}
+                                "styles": null
                             },
                             {
                                 "definition": {
@@ -4587,7 +4610,7 @@
                                 },
                                 "propertyValues": {},
                                 "slot": null,
-                                "styles": {}
+                                "styles": null
                             }
                         ],
                         "layout": {
@@ -4649,9 +4672,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": {
-                        "flex": "1 0 auto"
-                    }
+                    "styles": null
                 }
             ],
             "layout": {
@@ -4661,11 +4682,15 @@
                     "items": [
                         {
                             "element_id": "top_left_container",
-                            "styles": {}
+                            "styles": {
+                                "min-width": "0px"
+                            }
                         },
                         {
                             "element_id": "top_right_container",
-                            "styles": {}
+                            "styles": {
+                                "flex": "1 0 auto"
+                            }
                         }
                     ],
                     "root": null,
@@ -4709,9 +4734,7 @@
             }
         },
         "slot": null,
-        "styles": {
-            "width": "100%"
-        }
+        "styles": null
     },
     {
         "definition": {
@@ -4974,7 +4997,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": {}
+                    "styles": null
                 }
             ],
             "layout": {
@@ -5025,9 +5048,7 @@
             }
         },
         "slot": null,
-        "styles": {
-            "width": "100%"
-        }
+        "styles": null
     },
     {
         "definition": {
@@ -5168,7 +5189,39 @@
                         }
                     },
                     "slot": null,
-                    "styles": {}
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "dc87bcee22259d229390a8da7fb7b0b3",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "loader_1",
+                    "elementLabel": "Loader 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "action": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "label": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "size": {
+                            "type": "JSON_LITERAL",
+                            "value": "lg"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
                 },
                 {
                     "definition": {
@@ -5336,7 +5389,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": {}
+                    "styles": null
                 }
             ],
             "layout": {
@@ -5344,6 +5397,10 @@
                     "children": null,
                     "isInline": null,
                     "items": [
+                        {
+                            "element_id": "loader_1",
+                            "styles": {}
+                        },
                         {
                             "element_id": "security_constraints",
                             "styles": {}
@@ -5391,9 +5448,7 @@
             }
         },
         "slot": null,
-        "styles": {
-            "width": "100%"
-        }
+        "styles": null
     }
 ]</composition>
         <da_relay_models/>
@@ -5600,6 +5655,36 @@
                         },
                         "operation": null,
                         "targetId": "formSetLoadingState",
+                        "type": "EVENT"
+                    },
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                            "payload": {
+                                "container": {
+                                    "propName": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "isLoading"
+                                    },
+                                    "value": {
+                                        "binding": {
+                                            "address": [
+                                                "loading"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "32408b42ff7a10109046e490703bf176"
+                        },
+                        "operation": null,
+                        "targetId": "cmaapddyjmddaaeeffddffhhtvmaaaxqzi",
                         "type": "EVENT"
                     }
                 ]
@@ -5858,22 +5943,37 @@
         "isInline": null,
         "items": [
             {
+                "element_id": "loading_circle_component_1",
+                "styles": {
+                    "position": "absolute",
+                    "right": "50%",
+                    "top": "50%"
+                }
+            },
+            {
                 "element_id": "top_container",
-                "styles": {}
+                "styles": {
+                    "width": "100%"
+                }
             },
             {
                 "element_id": "ribbon_container",
-                "styles": {}
+                "styles": {
+                    "width": "100%"
+                }
             },
             {
                 "element_id": "warning_messages_container",
-                "styles": {}
+                "styles": {
+                    "width": "100%"
+                }
             },
             {
                 "element_id": "resizable_panes",
                 "styles": {
                     "flex": "none",
-                    "min-width": "730px"
+                    "min-width": "730px",
+                    "width": "100%"
                 }
             }
         ],
@@ -6097,20 +6197,30 @@
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_properties>[
-    
+    {
+        "fieldType": "boolean",
+        "id": "",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": true
+        },
+        "name": "isLoading",
+        "shape": "",
+        "valueType": "boolean"
+    }
 ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-16 09:50:56</sys_created_on>
         <sys_id>c05ee7e54740121076b88f59e16d435d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
         <sys_update_name>sys_ux_macroponent_c05ee7e54740121076b88f59e16d435d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-16 09:50:58</sys_updated_on>
+        <sys_updated_on>2024-09-05 09:52:12</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=c05ee7e54740121076b88f59e16d435d"/>
 </record_update>

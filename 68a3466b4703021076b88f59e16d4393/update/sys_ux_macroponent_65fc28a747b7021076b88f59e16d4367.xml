@@ -1212,7 +1212,7 @@
                                                             },
                                                             "css": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": "* { }"
+                                                                "value": "* { \r\n     overflow: hidden;           /* Hide any overflow */\r\n  display: -webkit-box;       /* Use flexbox layout for ellipsis */\r\n  -webkit-line-clamp: 2;      /* Limit the text to 2 lines */\r\n  -webkit-box-orient: vertical;\r\n  text-overflow: ellipsis;    /* Add ellipsis (...) when text overflows */\r\n  word-wrap: break-word;      /* Break words that are too long */\r\n  overflow-wrap: break-word;\r\n}"
                                                             },
                                                             "tag": {
                                                                 "type": "JSON_LITERAL",
@@ -1393,6 +1393,7 @@
                                                             {
                                                                 "element_id": "stylized_text_1",
                                                                 "styles": {
+                                                                    "min-width": "90px",
                                                                     "padding": "var(--now-scalable-space--xs)",
                                                                     "padding-bottom": "var(--now-scalable-space--xs)",
                                                                     "padding-left": "var(--now-scalable-space--xs)",
@@ -1505,6 +1506,35 @@
                                     },
                                     "type": "DATA_OUTPUT_BINDING"
                                 },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "0d85bd7c7f66024317f6981f538353cb",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "loading_circle_component_1",
+                                "elementLabel": "Loading Circle Component 1",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "operation": {
+                                        "operand": {
+                                            "binding": {
+                                                "address": [
+                                                    "isLoading"
+                                                ]
+                                            },
+                                            "type": "STATE_BINDING"
+                                        },
+                                        "operator": "NOT"
+                                    },
+                                    "type": "UNARY"
+                                },
+                                "preset": null,
+                                "propertyValues": {},
                                 "slot": null,
                                 "styles": null
                             },
@@ -1726,6 +1756,14 @@
                                     {
                                         "element_id": "repeater_available_items",
                                         "styles": {}
+                                    },
+                                    {
+                                        "element_id": "loading_circle_component_1",
+                                        "styles": {
+                                            "position": "absolute",
+                                            "right": "50%",
+                                            "top": "50%"
+                                        }
                                     },
                                     {
                                         "element_id": "pagination_control_1",
@@ -2771,249 +2809,6 @@
                                 "padding-left": "var(--now-scalable-space--lg)",
                                 "padding-right": "var(--now-scalable-space--lg)",
                                 "padding-top": "var(--now-scalable-space--lg)",
-                                "width": "auto"
-                            }
-                        }
-                    },
-                    "type": "columnSection"
-                },
-                "version": "1.0.0"
-            }
-        },
-        "slot": null,
-        "styles": null
-    },
-    {
-        "definition": {
-            "id": "d356d14b6e293a3020a244b63d278d8f",
-            "type": "MACROPONENT"
-        },
-        "elementId": "column_layout_3",
-        "elementLabel": "Column layout 3",
-        "eventMappings": [
-            
-        ],
-        "isHidden": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "overrides": {
-            "composition": [
-                {
-                    "definition": {
-                        "id": "d356d14b6e293a3020a244b63d278d8f",
-                        "type": "MACROPONENT"
-                    },
-                    "elementId": "__cmaaeaayhhzuaabbgcddffhhtvhhnvfviie__column_1",
-                    "elementLabel": "Column 1",
-                    "eventMappings": [
-                        
-                    ],
-                    "isHidden": {
-                        "type": "JSON_LITERAL",
-                        "value": null
-                    },
-                    "overrides": {
-                        "composition": [
-                            {
-                                "definition": {
-                                    "id": "0d85bd7c7f66024317f6981f538353cb",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "loading_circle_component_1",
-                                "elementLabel": "Loading Circle Component 1",
-                                "eventMappings": [
-                                    
-                                ],
-                                "isHidden": {
-                                    "operation": {
-                                        "operand": {
-                                            "binding": {
-                                                "address": [
-                                                    "isLoading"
-                                                ]
-                                            },
-                                            "type": "STATE_BINDING"
-                                        },
-                                        "operator": "NOT"
-                                    },
-                                    "type": "UNARY"
-                                },
-                                "preset": null,
-                                "propertyValues": {},
-                                "slot": null,
-                                "styles": null
-                            }
-                        ],
-                        "layout": {
-                            "default": {
-                                "children": null,
-                                "items": [
-                                    {
-                                        "element_id": "loading_circle_component_1",
-                                        "styles": {
-                                            "position": "absolute",
-                                            "right": "50%",
-                                            "top": "50%"
-                                        }
-                                    }
-                                ],
-                                "root": null,
-                                "rules": {
-                                    "flex-direction": "row"
-                                },
-                                "styles": {
-                                    "align-items": "stretch",
-                                    "box-sizing": "border-box",
-                                    "flex-direction": "column",
-                                    "height": "100%",
-                                    "justify-content": "flex-start",
-                                    "overflow": "auto"
-                                },
-                                "type": "flex"
-                            },
-                            "version": "3.0.0"
-                        }
-                    },
-                    "preset": null,
-                    "propertyValues": {
-                        "hideEmptyStateUi": {
-                            "type": "JSON_LITERAL",
-                            "value": true
-                        },
-                        "slotWrapperBehavior": {
-                            "type": "JSON_LITERAL",
-                            "value": "contents"
-                        }
-                    },
-                    "scratchPad": {
-                        "uib": {
-                            "layout": {
-                                "column": {
-                                    "columnNumber": 0,
-                                    "id": "default",
-                                    "styleConfig": {
-                                        "external": {
-                                            "display": "contents",
-                                            "width": "100%"
-                                        },
-                                        "internal": {
-                                            "align-items": "stretch",
-                                            "box-sizing": "border-box",
-                                            "flex-direction": "column",
-                                            "height": "100%",
-                                            "justify-content": "flex-start",
-                                            "overflow": "auto"
-                                        }
-                                    }
-                                },
-                                "type": "column"
-                            },
-                            "version": "1.0.0"
-                        }
-                    },
-                    "slot": null,
-                    "styles": null
-                }
-            ],
-            "layout": {
-                "default": {
-                    "children": null,
-                    "isInline": null,
-                    "items": [
-                        {
-                            "element_id": "__cmaaeaayhhzuaabbgcddffhhtvhhnvfviie__column_1",
-                            "styles": {
-                                "display": "contents",
-                                "width": "100%"
-                            }
-                        }
-                    ],
-                    "root": null,
-                    "rules": null,
-                    "styles": {
-                        "box-sizing": "border-box",
-                        "grid-template-columns": "100fr",
-                        "grid-template-rows": "1fr",
-                        "width": "auto"
-                    },
-                    "type": "grid"
-                },
-                "queries": [
-                    {
-                        "layout": {
-                            "children": null,
-                            "isInline": null,
-                            "items": [
-                                
-                            ],
-                            "root": null,
-                            "rules": null,
-                            "styles": {
-                                "box-sizing": "border-box",
-                                "grid-template-columns": "1fr",
-                                "grid-template-rows": "1fr",
-                                "height": "fit-content",
-                                "max-height": "max-content",
-                                "min-height": "min-content",
-                                "width": "auto"
-                            },
-                            "type": "grid"
-                        },
-                        "query": {
-                            "max-width": 640
-                        }
-                    }
-                ],
-                "version": "3.0.0"
-            }
-        },
-        "preset": null,
-        "propertyValues": {
-            "hideEmptyStateUi": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "slotWrapperBehavior": {
-                "type": "JSON_LITERAL",
-                "value": "contents"
-            }
-        },
-        "scratchPad": {
-            "uib": {
-                "layout": {
-                    "columnSection": {
-                        "breakpoints": [
-                            {
-                                "behavior": "stack",
-                                "max-width": 640,
-                                "styles": {
-                                    "box-sizing": "border-box",
-                                    "grid-template-columns": "1fr",
-                                    "grid-template-rows": "1fr",
-                                    "height": "fit-content",
-                                    "max-height": "max-content",
-                                    "min-height": "min-content",
-                                    "width": "auto"
-                                }
-                            }
-                        ],
-                        "children": [
-                            {
-                                "columnNumber": 1,
-                                "unit": "%",
-                                "width": 100
-                            }
-                        ],
-                        "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
-                        "styleConfig": {
-                            "external": {
-                                "display": "contents",
-                                "width": "100%"
-                            },
-                            "internal": {
-                                "box-sizing": "border-box",
-                                "grid-template-rows": "1fr",
                                 "width": "auto"
                             }
                         }
@@ -5069,7 +4864,41 @@
         "elementId": "look_up_available_item",
         "elementLabel": "Look up Available Items",
         "eventMappings": [
-            
+            {
+                "eventMappingId": "cmbbggggueffbaabbgqddffhhtyeecggffccggjj",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "propName": "isLoading",
+                                    "value": false
+                                }
+                            },
+                            "sysId": "32408b42ff7a10109046e490703bf176"
+                        },
+                        "operation": null,
+                        "targetId": "cmbbggggueffbaabbgrddffhhtziihhbbggioc",
+                        "type": "EVENT"
+                    }
+                ]
+            }
         ],
         "inputValues": {
             "encodedQuery": {
@@ -6091,13 +5920,6 @@
                     "display": "contents",
                     "width": "100%"
                 }
-            },
-            {
-                "element_id": "column_layout_3",
-                "styles": {
-                    "display": "contents",
-                    "width": "100%"
-                }
             }
         ],
         "root": null,
@@ -6260,14 +6082,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-09 14:38:19</sys_created_on>
         <sys_id>65fc28a747b7021076b88f59e16d4367</sys_id>
-        <sys_mod_count>137</sys_mod_count>
+        <sys_mod_count>143</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="UIMeSoHungry" source="x_303279_uimesohun">68a3466b4703021076b88f59e16d4393</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIMeSoHungry">68a3466b4703021076b88f59e16d4393</sys_scope>
         <sys_update_name>sys_ux_macroponent_65fc28a747b7021076b88f59e16d4367</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-05 08:45:03</sys_updated_on>
+        <sys_updated_on>2024-09-17 09:05:58</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=65fc28a747b7021076b88f59e16d4367"/>
 </record_update>
